@@ -1,0 +1,164 @@
+W (220032) httpd_txrx: httpd_sock_err: error in recv : 104
+W (225802) httpd_txrx: httpd_sock_err: error in recv : 104
+W (225802) httpd_ws: httpd_ws_get_frame_type: Failed to read header byte (socket FD invalid), closing socket now
+I (231582) rtsp_server: New client connected
+I (231582) rtsp_server: Signaling old client to stop
+I (231582) rtsp_server: Client slot 1 disconnected
+I (231582) rtsp_server: Client IP: 192.168.1.48
+I (231582) led: LED state change: 1 -> 0
+I (231652) settings: Persisted volume: -29.59 dB
+I (238082) rtsp_handlers: SETUP: has_streams=0, stream_count=0
+I (238082) rtsp_handlers: SETUP: Created event port 55439
+I (238082) rtsp_handlers: SETUP: Initial connection setup (no streams)
+I (238532) rtsp_handlers: Event client connected
+I (238532) led: LED state change: 0 -> 1
+I (239962) rtsp_handlers: RECORD received - starting playback, stream_paused was 0
+I (239962) audio_rt: Free heap: 185363 internal (largest block 94208), 6861992 SPIRAM
+I (239962) audio_time: set_playing: paused -> playing
+I (239972) led: LED state change: 1 -> 2
+I (240582) rtsp_handlers: SETPEERS: body_len=86
+I (240582) rtsp_handlers: SETPEERS: got bplist
+I (240582) rtsp_handlers: SETPEERS: PTP peers changed, clock will re-lock
+I (241142) rtsp_handlers: SETUP: has_streams=1, stream_count=1
+I (241152) rtsp_handlers: Configured codec: AAC (ct=4, sr=44100, spf=1024)
+I (241152) rtsp_handlers: SETUP: Stream setup, stream_type=103
+I (241152) audio_buf: Buffered start: free heap 178571 internal (largest block 94208), 6813856 SPIRAM
+I (241162) rtsp_handlers: SETUP response: type=103 dataPort=55440 controlPort=52597
+I (241172) audio_time: set_playing: playing -> playing
+I (241182) led: LED state change: 2 -> 2
+E (242162) ESP_AAC_DEC: Failed to decode aac frame, error:20.
+W (242162) audio_dec: AAC decode error -1 — resetting decoder
+W (242162) audio_dec: AAC decoder reset OK
+I (242272) rtsp_handlers: SETRATEANCHORTIME: secs=78003, rtp=2601010457, rate=1.0
+I (242272) ptp_clock: PTP master clock_id set: 9860cab6657b0008
+I (242272) audio_time: Anchor set: rtp=2601010457 lead=77762166 ms ptp_locked=0 quick_start=0
+I (242282) audio_time: First early frame: rtp=2601023669 early=292.2 ms quick_start=0 buffered=35
+I (242282) rtsp_handlers: SETRATEANCHORTIME: rate=1.0 -> RESUMING (was_paused=0)
+I (242302) audio_time: set_playing: playing -> playing
+I (242312) led: LED state change: 2 -> 2
+I (242432) rtsp_handlers: Progress: 0:12 / 5:37 (raw: 2600457499/2601010475/2615327974)
+I (242452) rtsp_handlers: Received DMAP metadata (259 bytes)
+I (242452) rtsp_handlers:   Album  = So...How's Your Girl?
+I (242462) rtsp_handlers:   Artist = Handsome Boy Modeling School
+I (242462) rtsp_handlers:   Genre  = Hip-Hop/Rap
+I (242472) rtsp_handlers:   Title  = The Truth (feat. Roisin & J-Live)
+I (242572) audio_time: Playout started: rtp=2601023669
+I (242622) rtsp_handlers: Received DMAP metadata (218 bytes)
+I (242622) rtsp_handlers:   Album  = So...How's Your Girl?
+I (242632) rtsp_handlers:   Artist = Handsome Boy Modeling School
+I (242632) rtsp_handlers:   Genre  = Hip-Hop/Rap
+I (242642) rtsp_handlers:   Title  = The Truth (feat. Roisin & J-Live)
+I (242842) rtsp_handlers: Progress: 0:11 / 5:37 (raw: 2600515041/2601038053/2615385516)
+I (242972) ptp_clock: LOCKED: offset=+77762324300231ns dev=1214023ns samples=6 sync=35 followup=33
+I (242972) rtsp_handlers: Received DMAP metadata (218 bytes)
+W (242972) audio_time: Late-frame drain complete: dropped=20
+I (242972) rtsp_handlers:   Album  = So...How's Your Girl?
+I (242992) rtsp_handlers:   Artist = Handsome Boy Modeling School
+I (242992) rtsp_handlers:   Genre  = Hip-Hop/Rap
+I (243002) rtsp_handlers:   Title  = The Truth (feat. Roisin & J-Live)
+I (243732) audio_time: Playout: err=-2 ms buffered=141 depth=1091 ms ptp_gap=-1031 us outliers=28 gaps=0 under=6 rtp=2601081717
+I (244692) audio_time: Playout: err=-2 ms buffered=250 depth=1935 ms ptp_gap=-2510 us outliers=28 gaps=0 under=6 rtp=2601124373
+I (245662) audio_time: Playout: err=-2 ms buffered=284 depth=2198 ms ptp_gap=-989 us outliers=28 gaps=0 under=6 rtp=2601167029
+I (246632) audio_time: Playout: err=-2 ms buffered=378 depth=2925 ms ptp_gap=-72 us outliers=28 gaps=0 under=6 rtp=2601209717
+I (247592) audio_time: Playout: err=-2 ms buffered=538 depth=4164 ms ptp_gap=-479 us outliers=28 gaps=0 under=6 rtp=2601252373
+I (248172) rtsp_handlers: Received DMAP metadata (218 bytes)
+I (248172) rtsp_handlers:   Album  = So...How's Your Girl?
+I (248172) rtsp_handlers:   Artist = Handsome Boy Modeling School
+I (248182) rtsp_handlers:   Genre  = Hip-Hop/Rap
+I (248192) rtsp_handlers:   Title  = The Truth (feat. Roisin & J-Live)
+I (248262) rtsp_handlers: FLUSHBUFFERED immediate (missing from/until fields)
+I (250062) rtsp_handlers: SETRATEANCHORTIME: secs=78010, rtp=4208197416, rate=1.0
+I (250062) audio_recv: RTP gates armed on anchor: discard_before=4208197416 discard_above=4208638416
+I (250072) audio_time: Anchor set: rtp=4208197416 lead=-1324 ms ptp_locked=1 quick_start=1
+I (250082) rtsp_handlers: SETRATEANCHORTIME: rate=1.0 -> RESUMING (was_paused=0)
+I (250092) audio_time: set_playing: playing -> playing
+I (250092) led: LED state change: 2 -> 2
+I (251482) rtsp_handlers: Progress: 0:00 / 4:53 (raw: 4208170336/4208197470/4221100411)
+I (252762) rtsp_handlers: Received DMAP metadata (153 bytes)
+I (252762) rtsp_handlers:   Album  = Dummy
+I (252762) rtsp_handlers:   Artist = Portishead
+I (252762) rtsp_handlers:   Genre  = Electronic
+I (252772) rtsp_handlers:   Title  = Wandering Star
+I (255912) rtsp_handlers: Received DMAP metadata (112 bytes)
+I (255912) rtsp_handlers:   Album  = Dummy
+I (255912) rtsp_handlers:   Artist = Portishead
+I (255912) rtsp_handlers:   Genre  = Electronic
+I (255922) rtsp_handlers:   Title  = Wandering Star
+I (256932) rtsp_handlers: Progress: 0:07 / 4:53 (raw: 4208197514/4208534701/4221127589)
+I (257072) rtsp_handlers: Received DMAP metadata (124 bytes)
+I (257072) rtsp_handlers:   Album  = Dummy
+I (257072) rtsp_handlers:   Artist = Portishead
+I (257082) rtsp_handlers:   Genre  = Electronic
+I (257082) rtsp_handlers:   Title  = Wandering Star
+I (257752) rtsp_handlers: Progress: 0:08 / 4:53 (raw: 4208197513/4208594213/4221127633)
+E (260812) ESP_AAC_DEC: Failed to decode aac frame, error:20.
+W (260812) audio_dec: AAC decode error -1 — resetting decoder
+W (260812) audio_dec: AAC decoder reset OK
+I (261042) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=4208296629
+I (261202) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=4208408245
+I (261412) audio_time: Skipped 6 stale start frame(s); contiguous stream begins at rtp=4208582325
+I (262002) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=4208722613
+I (262072) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=4208738997
+I (262332) audio_time: Playout started (quick_start): rtp=4208796693
+W (262332) audio_time: Late-frame drain complete: dropped=745
+I (262632) audio_time: Playout: err=2 ms buffered=145 depth=1122 ms ptp_gap=-179 us outliers=28 gaps=0 under=9 rtp=4208810005
+I (263592) audio_time: Playout: err=2 ms buffered=635 depth=4915 ms ptp_gap=-91 us outliers=28 gaps=0 under=9 rtp=4208852661
+I (264562) audio_time: Playout: err=2 ms buffered=900 depth=6965 ms ptp_gap=3 us outliers=28 gaps=0 under=9 rtp=4208895349
+I (265512) rtsp_handlers: Received DMAP metadata (112 bytes)
+I (265512) rtsp_handlers:   Album  = Dummy
+I (265512) rtsp_handlers:   Artist = Portishead
+I (265512) rtsp_handlers:   Genre  = Electronic
+I (265522) rtsp_handlers:   Title  = Wandering Star
+I (265532) audio_time: Playout: err=2 ms buffered=901 depth=6973 ms ptp_gap=-7487 us outliers=28 gaps=0 under=9 rtp=4208938005
+I (265652) rtsp_handlers: FLUSHBUFFERED immediate (missing from/until fields)
+I (270972) rtsp_handlers: Progress: 0:00 / 3:17 (raw: 1879358394/1879385502/1888050106)
+I (276192) rtsp_handlers: SETRATEANCHORTIME: secs=78028, rtp=1879385489, rate=1.0
+I (276192) audio_recv: RTP gates armed on anchor: discard_before=1879385489 discard_above=1879826489
+I (276202) audio_time: Anchor set: rtp=1879385489 lead=-9570 ms ptp_locked=1 quick_start=1
+I (276212) rtsp_handlers: SETRATEANCHORTIME: rate=1.0 -> RESUMING (was_paused=0)
+I (276212) audio_time: set_playing: playing -> playing
+I (276222) led: LED state change: 2 -> 2
+I (276312) rtsp_handlers: Received DMAP metadata (380 bytes)
+I (276312) rtsp_handlers:   Album  = Nathaniel Merriweather Presents...Lovage: Music to Make Love to
+I (276322) rtsp_handlers:   Artist = Nathaniel Merriweather
+I (276322) rtsp_handlers:   Genre  = Electronic
+I (276332) rtsp_handlers:   Title  = To Catch a Thief (feat. Mike Patton, Jennifer Charles, Kid Koal
+I (280042) rtsp_handlers: Received DMAP metadata (339 bytes)
+I (280042) rtsp_handlers:   Album  = Nathaniel Merriweather Presents...Lovage: Music to Make Love to
+I (280052) rtsp_handlers:   Artist = Nathaniel Merriweather
+I (280052) rtsp_handlers:   Genre  = Electronic
+I (280062) rtsp_handlers:   Title  = To Catch a Thief (feat. Mike Patton, Jennifer Charles, Kid Koal
+I (280482) rtsp_handlers: Progress: 0:13 / 3:17 (raw: 1879385577/1879993950/1888077289)
+I (280912) rtsp_handlers: Received DMAP metadata (339 bytes)
+I (280912) rtsp_handlers:   Album  = Nathaniel Merriweather Presents...Lovage: Music to Make Love to
+I (280912) rtsp_handlers:   Artist = Nathaniel Merriweather
+I (280922) rtsp_handlers:   Genre  = Electronic
+I (280922) rtsp_handlers:   Title  = To Catch a Thief (feat. Mike Patton, Jennifer Charles, Kid Koal
+I (283942) audio_time: Skipped 6 stale start frame(s); contiguous stream begins at rtp=1879504172
+I (284002) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=1879585068
+I (284202) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=1879734572
+I (284302) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=1879815468
+I (284352) audio_time: Skipped 6 stale start frame(s); contiguous stream begins at rtp=1879884076
+I (284462) audio_time: Skipped 6 stale start frame(s); contiguous stream begins at rtp=1879986476
+I (284612) audio_time: Skipped 6 stale start frame(s); contiguous stream begins at rtp=1880073516
+I (284712) audio_time: Skipped 3 stale start frame(s); contiguous stream begins at rtp=1880131884
+I (284932) audio_time: Playout started (quick_start): rtp=1880193004
+W (284932) audio_time: Late-frame drain complete: dropped=630
+W (285302) audio_time: Late-frame drain complete: dropped=23
+I (285962) audio_time: Playout: err=0 ms buffered=320 depth=2477 ms ptp_gap=-2940 us outliers=28 gaps=0 under=12 rtp=1880238380
+I (286932) audio_time: Playout: err=0 ms buffered=621 depth=4806 ms ptp_gap=79 us outliers=28 gaps=0 under=12 rtp=1880281068
+I (287892) audio_time: Playout: err=0 ms buffered=901 depth=6973 ms ptp_gap=-79 us outliers=28 gaps=0 under=12 rtp=1880323724
+I (288862) audio_time: Playout: err=0 ms buffered=899 depth=6958 ms ptp_gap=-169 us outliers=28 gaps=0 under=12 rtp=1880366380
+I (289832) audio_time: Playout: err=0 ms buffered=900 depth=6965 ms ptp_gap=27 us outliers=28 gaps=0 under=12 rtp=1880409068
+I (290712) rtsp_handlers: SETRATEANCHORTIME: secs=0, rtp=0, rate=0.0
+I (290712) rtsp_handlers: SETRATEANCHORTIME: rate=0 -> PAUSING
+I (290712) led: LED state change: 2 -> 1
+I (290722) audio_time: set_playing: playing -> paused
+I (290862) rtsp_handlers: FLUSHBUFFERED immediate (missing from/until fields)
+I (296352) rtsp_handlers: FLUSHBUFFERED immediate (missing from/until fields)
+I (296482) rtsp_handlers: TEARDOWN: has_streams=1 stream_count=1
+I (296482) audio_time: set_playing: paused -> paused
+I (296482) led: LED state change: 1 -> 1
+E (296482) audio_buf: Buffered audio recv error: 128
+I (297212) ptp_clock: LOCKED: offset=+77762324666755ns dev=153839ns samples=6 sync=6 followup=6
+W (308692) httpd_txrx: httpd_sock_err: error in recv : 104
