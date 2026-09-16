@@ -1,111 +1,2091 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright (C) 2019-present Team LibreELEC (https://libreelec.tv)
-# Copyright (C) 2023 JELOS (https://github.com/JustEnoughLinuxOS)
-# Copyright (C) 2024 ROCKNIX (https://github.com/ROCKNIX)
+[1;31mCLEAN[0m      generic-dsi
+    [1;31m*[0m      [0;31mRemoving /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/generic-dsi-04e5e55b82d30c5c03d060f44cb6d7cd8840f531 ...[0m
+    [1;31m*[0m      [0;31mRemoving /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/qa_checks/generic-dsi-* ...[0m
+[1;36mUNPACK[0m      generic-dsi
+Archive:  /home/arnau/rocknix-airplay/sources/generic-dsi/generic-dsi-04e5e55b82d30c5c03d060f44cb6d7cd8840f531.zip
+04e5e55b82d30c5c03d060f44cb6d7cd8840f531
+   creating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/
+ extracting: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/.gitignore  
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/LICENSE  
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/index.html  
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/overlay_server.py  
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/rocknix_dtbo.py  
+   creating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/static/
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/static/crypto-js.min.js  
+  inflating: overlay_server-04e5e55b82d30c5c03d060f44cb6d7cd8840f531/static/simple.min.css  
+sha256sum: projects/ROCKNIX/packages/linux-drivers/generic-dsi/package.mk: No such file or directory
+sha256sum: projects/ROCKNIX/packages/linux-drivers/generic-dsi/scripts/importpanel.py: No such file or directory
+sha256sum: projects/ROCKNIX/packages/linux-drivers/generic-dsi/sources/panel-generic-dsi.c: No such file or directory
+[1;33mBUILD[0m      linux [1;37m(target)[0m
+    [1;35mTOOLCHAIN[0m      make (auto-detect)
+    [1;32mINSTALL[0m      libc [1;37m(init)[0m
+    [1;32mINSTALL[0m      busybox [1;37m(init)[0m
+    [1;32mINSTALL[0m      util-linux [1;37m(init)[0m
+    [1;32mINSTALL[0m      gcc [1;37m(host)[0m
+    [1;32mINSTALL[0m      e2fsprogs [1;37m(init)[0m
+    [1;32mINSTALL[0m      dosfstools [1;37m(init)[0m
+    [1;32mINSTALL[0m      bdf2psf [1;37m(host)[0m
+    [1;32mINSTALL[0m      spleen-font [1;37m(init)[0m
+    [1;32mINSTALL[0m      fuse2 [1;37m(init)[0m
+    [1;32mINSTALL[0m      avfs [1;37m(init)[0m
+    [1;32mINSTALL[0m      rocknix-splash [1;37m(init)[0m
+    [1;32mINSTALL[0m      initramfs [1;37m(init)[0m
+    [1;32mINSTALL[0m      initramfs [1;37m(target)[0m
+'/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/wireless-regdb-2026.05.30/regulatory.db' -> '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/external-firmware/regulatory.db'
+'/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/wireless-regdb-2026.05.30/regulatory.db.p7s' -> '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/external-firmware/regulatory.db.p7s'
+make[2]: Entering directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2'
+make[2]: Leaving directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2'
+make[2]: Entering directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2'
+  SYNC    include/config/auto.conf
+make[3]: 'rockchip/rk3566-powkiddy-x35s.dtb' is up to date.
+make[3]: 'rockchip/rk3568-anbernic-rg-ds.dtb' is up to date.
+make[3]: 'rockchip/rk3566-powkiddy-x55.dtb' is up to date.
+make[3]: 'rockchip/rk3566-powkiddy-rk2023.dtb' is up to date.
+  CALL    scripts/checksyscalls.sh
+make[3]: 'rockchip/rk3566-powkiddy-rgb30.dtb' is up to date.
+make[3]: 'rockchip/rk3566-powkiddy-rgb20sx.dtb' is up to date.
+make[3]: 'rockchip/rk3566-powkiddy-rgb20-pro.dtb' is up to date.
+  CC      kernel/bpf/cpumask.o
+  CC      kernel/bpf/crypto.o
+  CC      kernel/bpf/relo_core.o
+  CC      kernel/bpf/btf_iter.o
+  CC      kernel/bpf/btf_relocate.o
+  CC      kernel/bpf/kmem_cache_iter.o
+  CC      kernel/bpf/dmabuf_iter.o
+  AR      kernel/bpf/built-in.a
+  GZIP    kernel/config_data.gz
+  CC      kernel/configs.o
+  AR      kernel/built-in.a
+  LD [M]  net/netfilter/nf_conntrack_h323.o
+  LD [M]  net/netfilter/nf_tables.o
+  CC [M]  net/netfilter/xt_REDIRECT.o
+  CC [M]  net/netfilter/xt_MASQUERADE.o
+  CC [M]  net/netfilter/xt_TCPMSS.o
+  CC [M]  net/netfilter/xt_IDLETIMER.o
+  CC [M]  net/netfilter/xt_TEE.o
+  CC [M]  net/netfilter/xt_addrtype.o
+  CC [M]  net/netfilter/xt_bpf.o
+  CC [M]  net/netfilter/xt_comment.o
+  CC [M]  net/netfilter/xt_cluster.o
+  CC [M]  net/netfilter/xt_connbytes.o
+  CC [M]  net/netfilter/xt_connlimit.o
+  CC [M]  net/netfilter/xt_conntrack.o
+  CC [M]  net/netfilter/xt_connlabel.o
+  CC [M]  net/netfilter/xt_cpu.o
+  CC [M]  net/netfilter/xt_dccp.o
+  CC [M]  net/netfilter/xt_devgroup.o
+  CC [M]  net/netfilter/xt_dscp.o
+  CC [M]  net/netfilter/xt_ecn.o
+  CC [M]  net/netfilter/xt_esp.o
+  CC [M]  net/netfilter/xt_hashlimit.o
+  CC [M]  net/netfilter/xt_helper.o
+  CC [M]  net/netfilter/xt_ipcomp.o
+  CC [M]  net/netfilter/xt_hl.o
+  CC [M]  net/netfilter/xt_iprange.o
+  CC [M]  net/netfilter/xt_ipvs.o
+  CC [M]  net/netfilter/xt_l2tp.o
+  CC [M]  net/netfilter/xt_length.o
+  CC [M]  net/netfilter/xt_limit.o
+  CC [M]  net/netfilter/xt_mac.o
+  CC [M]  net/netfilter/xt_multiport.o
+  CC [M]  net/netfilter/xt_owner.o
+  CC [M]  net/netfilter/xt_cgroup.o
+  CC [M]  net/netfilter/xt_osf.o
+  CC [M]  net/netfilter/xt_nfacct.o
+  CC [M]  net/netfilter/xt_pkttype.o
+  CC [M]  net/netfilter/xt_physdev.o
+  CC [M]  net/netfilter/xt_policy.o
+  CC [M]  net/netfilter/xt_quota.o
+  CC [M]  net/netfilter/xt_rateest.o
+  CC [M]  net/netfilter/xt_realm.o
+  CC [M]  net/netfilter/xt_recent.o
+  CC [M]  net/netfilter/xt_sctp.o
+  CC [M]  net/netfilter/xt_socket.o
+  CC [M]  net/netfilter/xt_state.o
+  CC [M]  net/netfilter/xt_statistic.o
+  CC [M]  net/netfilter/xt_string.o
+  CC [M]  net/netfilter/xt_tcpmss.o
+  CC [M]  net/netfilter/xt_time.o
+  CC [M]  net/netfilter/xt_u32.o
+  AR      net/netfilter/built-in.a
+  CC [M]  net/netfilter/ipvs/ip_vs_conn.o
+  CC [M]  net/netfilter/ipvs/ip_vs_core.o
+  CC [M]  net/netfilter/ipvs/ip_vs_ctl.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sched.o
+  CC [M]  net/netfilter/ipvs/ip_vs_xmit.o
+  CC [M]  net/netfilter/ipvs/ip_vs_app.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sync.o
+  CC [M]  net/netfilter/ipvs/ip_vs_est.o
+  CC [M]  net/netfilter/ipvs/ip_vs_proto.o
+  CC [M]  net/netfilter/ipvs/ip_vs_pe.o
+  CC [M]  net/netfilter/ipvs/ip_vs_proto_tcp.o
+  CC [M]  net/netfilter/ipvs/ip_vs_proto_udp.o
+  CC [M]  net/netfilter/ipvs/ip_vs_proto_ah_esp.o
+  CC [M]  net/netfilter/ipvs/ip_vs_proto_sctp.o
+  CC [M]  net/netfilter/ipvs/ip_vs_nfct.o
+  CC [M]  net/netfilter/ipvs/ip_vs_rr.o
+  CC [M]  net/netfilter/ipvs/ip_vs_wrr.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lc.o
+  CC [M]  net/netfilter/ipvs/ip_vs_wlc.o
+  CC [M]  net/netfilter/ipvs/ip_vs_fo.o
+  CC [M]  net/netfilter/ipvs/ip_vs_ovf.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lblcr.o
+  CC [M]  net/netfilter/ipvs/ip_vs_dh.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lblc.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sh.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sed.o
+  CC [M]  net/netfilter/ipvs/ip_vs_nq.o
+  LD [M]  net/netfilter/ipvs/ip_vs.o
+  AR      net/built-in.a
+  AS      drivers/base/firmware_loader/builtin/regulatory.db.gen.o
+  AS      drivers/base/firmware_loader/builtin/regulatory.db.p7s.gen.o
+  AR      drivers/base/firmware_loader/builtin/built-in.a
+  AR      drivers/base/firmware_loader/built-in.a
+  AR      drivers/base/built-in.a
+  LD [M]  drivers/gpu/drm/drm_shmem_helper.o
+  CC      fs/xfs/libxfs/xfs_parent.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_device.o
+  CC      fs/xfs/libxfs/xfs_rmap.o
+  CC      fs/xfs/libxfs/xfs_rmap_btree.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_devfreq.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_gem.o
+  CC      fs/xfs/libxfs/xfs_refcount.o
+  CC      fs/xfs/libxfs/xfs_refcount_btree.o
+  CC      fs/btrfs/sysfs.o
+  CC      fs/btrfs/accessors.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_gem_shrinker.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_core.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822b.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bs.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bu.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822c.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cs.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cu.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723x.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8703b.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723cs.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8723d.o
+  CC [M]  fs/nfsd/lockd.o
+  CC      fs/btrfs/xattr.o
+  CC      fs/xfs/libxfs/xfs_rtrefcount_btree.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_gpu.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8723d_table.o
+  CC [M]  fs/ntfs3/attrib.o
+  CC [M]  fs/nfsd/nfscache.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_job.o
+  CC      fs/xfs/libxfs/xfs_rtrmap_btree.o
+  CC [M]  fs/ntfs3/attrlist.o
+  CC [M]  fs/ntfs3/bitfunc.o
+  CC      fs/btrfs/ordered-data.o
+  CC [M]  fs/nfsd/stats.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8723ds.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_mmu.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_perfcnt.o
+  CC      fs/xfs/libxfs/xfs_sb.o
+  CC      fs/btrfs/extent_io.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8723du.o
+  CC [M]  fs/ntfs3/bitmap.o
+  CC [M]  fs/nfsd/filecache.o
+  CC      fs/btrfs/volumes.o
+  CC [M]  fs/nfsd/nfs3proc.o
+  CC      fs/xfs/libxfs/xfs_symlink_remote.o
+  CC [M]  fs/ntfs3/fsntfs.o
+  CC      fs/xfs/libxfs/xfs_trans_inode.o
+  CC      fs/btrfs/async-thread.o
+  CC [M]  fs/ntfs3/dir.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost_dump.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821c.o
+  CC      fs/xfs/libxfs/xfs_trans_resv.o
+  CC      fs/btrfs/ioctl.o
+  CC      fs/btrfs/locking.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821c_table.o
+  CC      fs/btrfs/orphan.o
+  LD [M]  drivers/gpu/drm/panfrost/panfrost.o
+  AR      drivers/gpu/vga/built-in.a
+  AR      drivers/gpu/built-in.a
+  CC      fs/btrfs/export.o
+  CC [M]  fs/nfsd/nfs3xdr.o
+  CC      fs/xfs/xfs_aops.o
+  CC [M]  fs/ntfs3/frecord.o
+  CC      fs/xfs/libxfs/xfs_types.o
+  CC      fs/xfs/libxfs/xfs_trans_space.o
+  CC [M]  fs/ntfs3/file.o
+  CC      fs/btrfs/tree-log.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821cs.o
+  CC      fs/xfs/xfs_attr_inactive.o
+  AR      drivers/media/v4l2-core/built-in.a
+  CC [M]  drivers/media/v4l2-core/v4l2-jpeg.o
+  CC [M]  fs/ntfs3/inode.o
+  CC [M]  fs/ntfs3/fslog.o
+  CC [M]  fs/nfsd/netlink.o
+  CC [M]  fs/ntfs3/index.o
+  CC [M]  fs/nfsd/debugfs.o
+  CC      fs/btrfs/free-space-cache.o
+  CC [M]  fs/ntfs3/lznt.o
+  CC      fs/xfs/xfs_attr_list.o
+  CC [M]  fs/ntfs3/namei.o
+  CC      fs/xfs/xfs_bmap_util.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821cu.o
+  CC      drivers/thermal/gov_step_wise.o
+  CC      drivers/media/platform/rockchip/rkvdec/rkvdec-vdpu381-h264.o
+  CC      drivers/media/platform/rockchip/rkvdec/rkvdec-vdpu381-hevc.o
+  CC [M]  fs/ntfs3/record.o
+  LD [M]  fs/nfsd/nfsd.o
+  CC      fs/btrfs/zlib.o
+  CC      drivers/thermal/cpufreq_cooling.o
+  CC      fs/xfs/xfs_bio_io.o
+  CC      drivers/thermal/devfreq_cooling.o
+  CC [M]  fs/ntfs3/run.o
+  CC [M]  fs/ntfs3/super.o
+  CC      drivers/media/platform/rockchip/rkvdec/rkvdec-vdpu383-h264.o
+  AR      drivers/thermal/broadcom/built-in.a
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88xxa.o
+  CC      drivers/thermal/rockchip_thermal.o
+  CC      fs/xfs/xfs_buf.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821a.o
+  CC [M]  fs/ntfs3/upcase.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_drv.o
+  CC      drivers/media/platform/rockchip/rkvdec/rkvdec-vdpu383-hevc.o
+  CC      drivers/opp/core.o
+  CC      drivers/watchdog/watchdog_core.o
+  CC      fs/btrfs/lzo.o
+  CC      fs/btrfs/zstd.o
+  CC      drivers/watchdog/watchdog_dev.o
+  CC      fs/btrfs/compression.o
+  AR      drivers/thermal/renesas/built-in.a
+  AR      drivers/thermal/samsung/built-in.a
+  AR      drivers/thermal/intel/built-in.a
+  AR      drivers/thermal/st/built-in.a
+  AR      drivers/thermal/qcom/built-in.a
+  AR      drivers/thermal/tegra/built-in.a
+  AR      drivers/thermal/mediatek/built-in.a
+  AR      drivers/thermal/built-in.a
+  AR      drivers/media/platform/via/built-in.a
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821a_table.o
+  CC      fs/btrfs/delayed-ref.o
+  CC [M]  fs/ntfs3/xattr.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_v4l2.o
+  CC      drivers/media/platform/rockchip/rkvdec/rkvdec-vp9.o
+  CC      fs/xfs/xfs_dahash_test.o
+  AR      drivers/media/platform/xilinx/built-in.a
+  CC      fs/btrfs/relocation.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_postproc.o
+  CC      drivers/watchdog/dw_wdt.o
+  CC      drivers/cpufreq/cpufreq.o
+  CC      fs/xfs/xfs_dir2_readdir.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8812a.o
+  CC      drivers/opp/of.o
+  CC      fs/xfs/xfs_discard.o
+  CC      drivers/cpuidle/cpuidle.o
+  LD [M]  fs/ntfs3/ntfs3.o
+  CC      fs/xfs/xfs_error.o
+  CC      drivers/cpufreq/freq_table.o
+  AR      drivers/watchdog/built-in.a
+  CC      fs/btrfs/delayed-inode.o
+  CC      fs/btrfs/scrub.o
+  AR      drivers/media/platform/rockchip/rkvdec/built-in.a
+  AR      drivers/media/platform/rockchip/built-in.a
+  CC      drivers/cpuidle/driver.o
+  CC      drivers/opp/debugfs.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_h1_jpeg_enc.o
+  CC      drivers/mmc/core/core.o
+  CC      drivers/cpufreq/cpufreq_stats.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8812a_table.o
+  AR      drivers/opp/built-in.a
+  CC      fs/xfs/xfs_export.o
+  CC      drivers/cpuidle/governor.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g1.o
+  CC      drivers/mmc/core/bus.o
+  CC      fs/btrfs/backref.o
+  CC      drivers/cpufreq/cpufreq_performance.o
+  CC      drivers/cpuidle/sysfs.o
+  AR      drivers/ufs/built-in.a
+  CC      drivers/firmware/arm_scpi.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g1_h264_dec.o
+  CC      drivers/mmc/core/host.o
+  CC      fs/xfs/xfs_exchrange.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8821au.o
+  CC      drivers/cpufreq/cpufreq_powersave.o
+  AR      drivers/media/test-drivers/built-in.a
+  CC      drivers/crypto/rockchip/rk3288_crypto.o
+  CC      drivers/cpuidle/governors/ladder.o
+  CC      drivers/firmware/arm_ffa/bus.o
+  CC      drivers/firmware/arm_ffa/driver.o
+  CC      fs/btrfs/ulist.o
+  AR      drivers/media/radio/built-in.a
+  CC      drivers/cpufreq/cpufreq_ondemand.o
+  CC      drivers/clocksource/timer-of.o
+  CC      drivers/mmc/core/mmc.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g1_mpeg2_dec.o
+  AR      drivers/crypto/stm32/built-in.a
+  CC      drivers/cpuidle/dt_idle_states.o
+  CC      drivers/cpuidle/governors/menu.o
+  CC      fs/xfs/xfs_extent_busy.o
+  CC      drivers/cpuidle/dt_idle_genpd.o
+  CC      drivers/cpufreq/cpufreq_governor.o
+  CC      drivers/crypto/rockchip/rk3288_crypto_skcipher.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8812au.o
+  CC      drivers/clocksource/timer-probe.o
+  CC      fs/btrfs/qgroup.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g1_vp8_dec.o
+  CC      drivers/clocksource/mmio.o
+  CC      drivers/cpuidle/cpuidle-psci.o
+  AR      drivers/cpuidle/governors/built-in.a
+  CC      drivers/hid/hid-core.o
+  CC      drivers/crypto/rockchip/rk3288_crypto_ahash.o
+  CC      drivers/cpufreq/cpufreq_governor_attr_set.o
+  CC      fs/xfs/xfs_file.o
+  CC      drivers/firmware/arm_ffa/smccc.o
+  CC      drivers/mmc/core/mmc_ops.o
+  CC      drivers/clocksource/timer-rockchip.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8814a.o
+  CC      drivers/cpuidle/cpuidle-psci-domain.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g2.o
+  CC      drivers/cpufreq/cpufreq-dt.o
+  AR      drivers/firmware/arm_ffa/built-in.a
+  AR      drivers/crypto/rockchip/built-in.a
+  CC      drivers/firmware/arm_scmi/transports/smc.o
+  AR      drivers/crypto/inside-secure/eip93/built-in.a
+  AR      drivers/crypto/inside-secure/built-in.a
+  AR      drivers/crypto/xilinx/built-in.a
+  AR      drivers/crypto/hisilicon/built-in.a
+  AR      drivers/crypto/loongson/built-in.a
+  CC      drivers/of/base.o
+  AR      drivers/crypto/intel/keembay/built-in.a
+  AR      drivers/crypto/intel/ixp4xx/built-in.a
+  AR      drivers/crypto/intel/built-in.a
+  AR      drivers/crypto/starfive/built-in.a
+  AR      drivers/crypto/cavium/built-in.a
+  AR      drivers/cpuidle/built-in.a
+  AR      drivers/crypto/ti/built-in.a
+  AR      drivers/firmware/arm_scmi/vendors/imx/built-in.a
+  AR      drivers/crypto/built-in.a
+  CC      drivers/mmc/core/sd.o
+  CC      drivers/clocksource/arm_arch_timer.o
+  CC      drivers/hid/hid-input.o
+  CC      fs/btrfs/send.o
+  CC      fs/xfs/xfs_filestream.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g2_hevc_dec.o
+  CC      drivers/of/cpu.o
+  CC      drivers/cpufreq/cpufreq-dt-platdev.o
+  CC      drivers/firmware/arm_scmi/transports/mailbox.o
+  CC      drivers/clocksource/arm_arch_timer_mmio.o
+  CC      drivers/mmc/core/sd_ops.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8814a_table.o
+  AR      drivers/firmware/broadcom/built-in.a
+  CC      drivers/of/device.o
+  CC      drivers/cpufreq/scmi-cpufreq.o
+  CC      drivers/hid/hid-quirks.o
+  CC      fs/btrfs/dev-replace.o
+  AR      drivers/staging/media/built-in.a
+  CC      fs/xfs/xfs_fsmap.o
+  AR      drivers/staging/iio/accel/built-in.a
+  AR      drivers/staging/iio/adc/built-in.a
+  AR      drivers/staging/iio/addac/built-in.a
+  AR      drivers/staging/iio/frequency/built-in.a
+  AR      drivers/staging/iio/impedance-analyzer/built-in.a
+  AR      drivers/staging/iio/built-in.a
+  AR      drivers/firmware/arm_scmi/transports/built-in.a
+  CC      drivers/mmc/core/sdio.o
+  CC      drivers/firmware/arm_scmi/bus.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ap.o
+  AR      drivers/cpufreq/built-in.a
+  CC      drivers/clocksource/dummy_timer.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_g2_vp9_dec.o
+  CC      drivers/of/module.o
+  CC      drivers/hid/hid-debug.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw8814au.o
+  AR      drivers/firmware/cirrus/test/built-in.a
+  CC      drivers/firmware/arm_scmi/driver.o
+  AR      drivers/firmware/cirrus/built-in.a
+  CC      drivers/of/platform.o
+  AR      drivers/clocksource/built-in.a
+  CC      drivers/mmc/core/sdio_ops.o
+  CC      fs/btrfs/raid56.o
+  AR      drivers/firmware/meson/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_btcoex.o
+  CC      drivers/of/property.o
+  CC      fs/xfs/xfs_fsops.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_jpeg.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/sdio.o
+  CC      drivers/hid/hidraw.o
+  CC      drivers/mmc/core/sdio_bus.o
+  CC      fs/btrfs/uuid-tree.o
+  CC      drivers/of/kobj.o
+  AR      drivers/platform/arm64/built-in.a
+  AR      drivers/platform/built-in.a
+  CC      drivers/firmware/arm_scmi/notify.o
+  AR      drivers/firmware/microchip/built-in.a
+  CC      drivers/hid/uhid.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_cmd.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_h264.o
+  CC      fs/xfs/xfs_globals.o
+  CC      fs/btrfs/props.o
+  CC      drivers/mmc/core/sdio_cis.o
+  CC      drivers/of/dynamic.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/usb.o
+  CC      fs/xfs/xfs_handle.o
+  CC      drivers/mailbox/mailbox.o
+  AR      drivers/firmware/efi/built-in.a
+  CC      fs/btrfs/free-space-tree.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_hevc.o
+  CC      drivers/firmware/arm_scmi/quirks.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_mpeg2.o
+  CC      drivers/hid/hid-generic.o
+  CC      drivers/of/fdt.o
+  CC      drivers/mmc/core/sdio_io.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_efuse.o
+  CC      drivers/mailbox/arm_mhu.o
+  CC      drivers/firmware/arm_scmi/base.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723d.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723ds.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723du.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821c.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cs.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cu.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_88xxa.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821a.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812a.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821au.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812au.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814a.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814au.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_sdio.o
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_usb.o
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+  CC [M]  drivers/media/platform/verisilicon/hantro_vp8.o
+  CC      fs/xfs/xfs_health.o
+  CC      drivers/of/fdt_address.o
+  CC      drivers/hid/hid-a4tech.o
+  CC      drivers/firmware/arm_scmi/clock.o
+  CC      fs/btrfs/tree-checker.o
+  AR      drivers/virt/vboxguest/built-in.a
+  AR      drivers/virt/coco/built-in.a
+  AR      drivers/virt/built-in.a
+  DTC     drivers/of/empty_root.dtb
+  CC      drivers/mmc/core/sdio_irq.o
+  CC      drivers/of/address.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_io.o
+  CC      drivers/mailbox/arm_mhu_db.o
+  CC      drivers/firmware/psci/psci.o
+  CC      drivers/firmware/arm_scmi/perf.o
+  CC [M]  drivers/media/platform/verisilicon/hantro_vp9.o
+  CC      drivers/mailbox/platform_mhu.o
+  CC      drivers/hid/hid-alps.o
+  CC      fs/xfs/xfs_icache.o
+  CC      fs/xfs/xfs_healthmon.o
+  AR      drivers/firmware/imx/built-in.a
+  CC      drivers/devfreq/devfreq.o
+  CC      drivers/of/irq.o
+  CC      drivers/mmc/core/sd_uhs2.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ioctl_set.o
+  CC      fs/btrfs/space-info.o
+  CC      drivers/firmware/arm_scmi/power.o
+  AR      drivers/firmware/psci/built-in.a
+  CC      drivers/mailbox/rockchip-mailbox.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu2_hw_jpeg_enc.o
+  CC      drivers/of/of_reserved_mem.o
+  CC      drivers/extcon/extcon.o
+  CC      drivers/devfreq/devfreq-event.o
+  CC      fs/xfs/xfs_ioctl.o
+  CC      drivers/firmware/arm_scmi/reset.o
+  CC      drivers/hid/hid-axff.o
+  CC      drivers/mmc/core/slot-gpio.o
+  CC      drivers/of/resolver.o
+  AR      drivers/mailbox/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ieee80211.o
+  CC      fs/btrfs/block-rsv.o
+  CC      drivers/devfreq/governor_simpleondemand.o
+  CC      drivers/extcon/devres.o
+  CC      drivers/firmware/arm_scmi/sensors.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu2_hw_h264_dec.o
+  CC      drivers/devfreq/governor_performance.o
+  CC      drivers/of/overlay.o
+  CC      drivers/firmware/arm_scmi/system.o
+  CC      drivers/mmc/core/regulator.o
+  CC      fs/btrfs/delalloc-space.o
+  CC      drivers/hid/hid-belkin.o
+  AR      drivers/extcon/built-in.a
+  CC      fs/xfs/xfs_iomap.o
+  CC      drivers/devfreq/governor_powersave.o
+  AR      drivers/firmware/qcom/built-in.a
+  CC      drivers/firmware/arm_scmi/voltage.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu2_hw_vp8_dec.o
+  WRAP    drivers/of/empty_root.dtb.S
+  AS      drivers/of/empty_root.dtb.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_mlme.o
+  AR      drivers/of/built-in.a
+  CC      drivers/mmc/core/pwrseq.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu981_hw_av1_dec.o
+  CC      fs/btrfs/block-group.o
+  CC      drivers/hid/hid-betopff.o
+  CC      drivers/devfreq/rk3399_dmc.o
+  CC      fs/xfs/xfs_iops.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu2_hw_mpeg2_dec.o
+  AR      drivers/firmware/samsung/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_mlme_ext.o
+  CC      drivers/firmware/arm_scmi/powercap.o
+  AR      drivers/memory/built-in.a
+  CC      drivers/mmc/core/debugfs.o
+  CC      fs/xfs/xfs_itable.o
+  CC      fs/xfs/xfs_inode.o
+  CC      fs/xfs/xfs_iwalk.o
+  CC      drivers/hid/hid-cherry.o
+  CC      drivers/firmware/arm_scmi/pinctrl.o
+  CC      drivers/devfreq/event/rockchip-dfi.o
+  CC      fs/btrfs/discard.o
+  CC      drivers/firmware/arm_scmi/shmem.o
+  CC      drivers/firmware/arm_scmi/scmi_power_control.o
+  CC      drivers/mmc/core/pwrseq_simple.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_pwrctrl.o
+  CC      drivers/firmware/smccc/smccc.o
+  CC      drivers/iio/industrialio-core.o
+  CC      drivers/hid/hid-chicony.o
+  CC      drivers/firmware/smccc/kvm_guest.o
+  CC      fs/xfs/xfs_message.o
+  CC      fs/xfs/xfs_mount.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_av1_filmgrain.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_recv.o
+  CC      drivers/mmc/core/pwrseq_emmc.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_av1_entropymode.o
+  AR      drivers/devfreq/event/built-in.a
+  AR      drivers/devfreq/built-in.a
+  AR      drivers/firmware/arm_scmi/built-in.a
+  CC      fs/btrfs/reflink.o
+  AR      drivers/firmware/tegra/built-in.a
+  CC      drivers/iio/industrialio-event.o
+  CC      drivers/firmware/smccc/soc_id.o
+  CC      drivers/hid/hid-corsair.o
+  CC      fs/xfs/xfs_mru_cache.o
+  CC [M]  drivers/media/platform/verisilicon/rockchip_vpu_hw.o
+  CC      drivers/iio/industrialio-buffer.o
+  CC      drivers/mmc/core/block.o
+  AR      drivers/firmware/smccc/built-in.a
+  CC      drivers/iio/industrialio-trigger.o
+  AR      drivers/firmware/xilinx/built-in.a
+  AR      drivers/firmware/built-in.a
+  CC      drivers/mmc/core/queue.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_security.o
+  CC      fs/btrfs/tree-mod-log.o
+  CC      fs/xfs/xfs_pwork.o
+  CC      fs/btrfs/subpage.o
+  CC      drivers/perf/arm_pmu.o
+  CC      drivers/hid/hid-corsair-void.o
+  CC      drivers/iio/inkern.o
+  LD [M]  drivers/media/platform/verisilicon/hantro-vpu.o
+  AR      drivers/media/platform/built-in.a
+  CC      drivers/perf/arm_pmu_platform.o
+  AR      drivers/media/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_sta_mgt.o
+  CC      drivers/iio/industrialio-sw-device.o
+  CC      drivers/mmc/core/mmc_test.o
+  CC      drivers/hid/hid-cp2112.o
+  CC      drivers/ras/ras.o
+  CC      fs/btrfs/extent-io-tree.o
+  CC      drivers/perf/arm_smmuv3_pmu.o
+  CC      fs/xfs/xfs_reflink.o
+  CC      drivers/iio/industrialio-triggered-event.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_xmit.o
+  CC      drivers/iio/industrialio-sw-trigger.o
+  CC      fs/xfs/xfs_stats.o
+  CC      drivers/ras/debugfs.o
+  CC      drivers/perf/arm_pmuv3.o
+  CC      drivers/iio/industrialio-configfs.o
+  CC      drivers/hid/hid-dr.o
+  CC      fs/btrfs/fs.o
+  AR      drivers/mmc/core/built-in.a
+  AR      drivers/ras/amd/atl/built-in.a
+  AR      drivers/ras/built-in.a
+  CC      drivers/mmc/host/sdhci.o
+  CC      drivers/mmc/host/dw_mmc.o
+  CC      fs/xfs/xfs_super.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_intf.o
+  AR      drivers/iio/accel/built-in.a
+  CC      drivers/iio/adc/rockchip_saradc.o
+  CC      fs/btrfs/messages.o
+  CC      drivers/hid/hid-emsff.o
+  AR      drivers/hwtracing/intel_th/built-in.a
+  AR      drivers/android/built-in.a
+  CC      drivers/mmc/host/dw_mmc-pltfm.o
+  AR      drivers/iio/addac/built-in.a
+  CC      drivers/perf/arm_brbe.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_com.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_wlan_util.o
+  AR      drivers/iio/adc/built-in.a
+  CC      fs/btrfs/bio.o
+  AR      drivers/iio/afe/built-in.a
+  AR      drivers/iio/amplifiers/built-in.a
+  CC      drivers/iio/buffer/industrialio-buffer-cb.o
+  CC      fs/xfs/xfs_sysfs.o
+  CC      drivers/hid/hid-elo.o
+  CC      drivers/nvmem/core.o
+  CC      drivers/nvmem/layouts.o
+  CC      fs/xfs/xfs_symlink.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_com_phycfg.o
+  CC      drivers/iio/buffer/industrialio-hw-consumer.o
+  CC      drivers/mmc/host/dw_mmc-rockchip.o
+  AR      drivers/perf/built-in.a
+  CC      fs/btrfs/lru_cache.o
+  CC      drivers/mux/core.o
+  CC      drivers/hid/hid-ezkey.o
+  AR      drivers/nvmem/layouts/built-in.a
+  CC      drivers/nvmem/rockchip-otp.o
+  CC      fs/xfs/xfs_trans.o
+  CC      drivers/iio/buffer/kfifo_buf.o
+  AR      drivers/resctrl/built-in.a
+  AR      drivers/iio/cdc/built-in.a
+  CC      drivers/mmc/host/sdhci-pltfm.o
+  CC      drivers/mux/gpio.o
+  CC      drivers/iio/buffer/industrialio-triggered-buffer.o
+  CC      fs/btrfs/raid-stripe-tree.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_sdio.o
+  AR      drivers/nvmem/built-in.a
+  CC      drivers/mmc/host/sdhci-of-dwcmshc.o
+  CC      drivers/hid/hid-gembird.o
+  CC      fs/xfs/xfs_xattr.o
+  CC      drivers/hid/hid-gyration.o
+  AR      drivers/iio/buffer/built-in.a
+  AR      drivers/iio/chemical/built-in.a
+  AR      drivers/iio/common/cros_ec_sensors/built-in.a
+  AR      drivers/iio/common/hid-sensors/built-in.a
+  AR      drivers/iio/common/inv_sensors/built-in.a
+  AR      drivers/iio/common/ms_sensors/built-in.a
+  CC      drivers/mux/mmio.o
+  AR      drivers/iio/common/scmi_sensors/built-in.a
+  AR      drivers/iio/common/ssp_sensors/built-in.a
+  AR      drivers/iio/common/st_sensors/built-in.a
+  AR      drivers/iio/common/built-in.a
+  AR      drivers/iio/dac/built-in.a
+  AR      drivers/iio/dummy/built-in.a
+  AR      drivers/iio/gyro/built-in.a
+  AR      drivers/iio/filter/built-in.a
+  AR      drivers/iio/frequency/built-in.a
+  AR      drivers/iio/health/built-in.a
+  AR      drivers/iio/humidity/built-in.a
+  AR      drivers/iio/imu/bmi160/built-in.a
+  AR      drivers/iio/imu/bmi270/built-in.a
+  AR      drivers/iio/imu/bmi323/built-in.a
+  CC      fs/btrfs/fiemap.o
+  AR      drivers/iio/imu/bno055/built-in.a
+  AR      drivers/iio/imu/inv_icm42600/built-in.a
+  CC      drivers/hid/hid-kensington.o
+  CC      drivers/hid/hid-icade.o
+  AR      drivers/iio/imu/inv_icm45600/built-in.a
+  AR      drivers/iio/imu/inv_mpu6050/built-in.a
+  AR      drivers/iio/imu/smi330/built-in.a
+  AR      drivers/iio/imu/st_lsm6dsx/built-in.a
+  AR      drivers/iio/imu/st_lsm9ds0/built-in.a
+  AR      drivers/iio/imu/built-in.a
+  CC      drivers/iio/light/isl29018.o
+  CC      drivers/mmc/host/cqhci-core.o
+  CC      drivers/mmc/host/mmc_hsq.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_pwr_seq.o
+  CC      fs/xfs/xfs_log.o
+  AR      drivers/mux/built-in.a
+  CC      drivers/iio/light/tsl2563.o
+  CC      drivers/hid/hid-keytouch.o
+  CC      fs/btrfs/direct-io.o
+  AR      drivers/mmc/host/built-in.a
+  AR      drivers/mmc/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPwrSeqCmd.o
+  CC      drivers/iio/light/tsl2583.o
+  CC      drivers/hid/hid-kye.o
+  CC      fs/xfs/xfs_bmap_item.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm.o
+  AR      fs/btrfs/built-in.a
+  CC      drivers/hid/hid-lcpower.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPhyRf.o
+  AR      drivers/iio/light/built-in.a
+  AR      drivers/iio/orientation/built-in.a
+  CC      drivers/iio/multiplexer/iio-mux.o
+  CC      fs/xfs/xfs_dquot_item_recover.o
+  CC      fs/xfs/xfs_buf_item_recover.o
+  CC      fs/xfs/xfs_buf_item.o
+  CC      drivers/hid/hid-lenovo.o
+  AR      drivers/iio/multiplexer/built-in.a
+  AR      drivers/iio/position/built-in.a
+  AR      drivers/iio/magnetometer/built-in.a
+  AR      drivers/iio/potentiometer/built-in.a
+  AR      drivers/iio/potentiostat/built-in.a
+  AR      drivers/iio/pressure/built-in.a
+  AR      drivers/iio/proximity/built-in.a
+  AR      drivers/iio/resolver/built-in.a
+  AR      drivers/iio/temperature/built-in.a
+  AR      drivers/iio/test/built-in.a
+  CC      drivers/iio/trigger/iio-trig-hrtimer.o
+  CC      drivers/iio/trigger/iio-trig-sysfs.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DIG.o
+  CC      drivers/hid/hid-lgff.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DynamicBBPowerSaving.o
+  CC      fs/xfs/xfs_exchmaps_item.o
+  AR      drivers/iio/trigger/built-in.a
+  AR      drivers/iio/built-in.a
+  CC [M]  drivers/bluetooth/hci_vhci.o
+  CC      drivers/hid/hid-lg3ff.o
+  CC      fs/xfs/xfs_icreate_item.o
+  CC      fs/xfs/xfs_attr_item.o
+  CC      fs/xfs/xfs_extfree_item.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_EdcaTurboCheck.o
+  CC [M]  drivers/bluetooth/hci_ldisc.o
+  CC      drivers/hid/hid-lg4ff.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DynamicTxPower.o
+  CC      fs/xfs/xfs_verify_media.o
+  CC      fs/xfs/xfs_log_cil.o
+  CC      drivers/hid/hid-lg2ff.o
+  CC      fs/xfs/xfs_refcount_item.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_RegConfig8723B.o
+  CC [M]  drivers/bluetooth/hci_serdev.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_HWConfig.o
+  CC      drivers/hid/hid-lg.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_dm.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_cmd.o
+  CC [M]  drivers/bluetooth/hci_h4.o
+  CC      fs/xfs/xfs_trans_ail.o
+  CC      fs/xfs/xfs_log_recover.o
+  CC      drivers/hid/hid-logitech-dj.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_phycfg.o
+  CC [M]  drivers/bluetooth/hci_ath.o
+  CC      drivers/hid/hid-lg-g15.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_rf6052.o
+  CC      fs/xfs/xfs_sysctl.o
+  CC      drivers/hid/hid-logitech-hidpp.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_rxdesc.o
+  CC [M]  drivers/bluetooth/bfusb.o
+  CC      fs/xfs/xfs_ioctl32.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723bs_recv.o
+  CC      drivers/hid/hid-magicmouse.o
+  CC [M]  drivers/bluetooth/btintel.o
+  CC      fs/xfs/xfs_trans_buf.o
+  CC      drivers/hid/hid-microsoft.o
+  CC [M]  drivers/staging/rtl8723bs/hal/sdio_halinit.o
+  CC      fs/xfs/xfs_rmap_item.o
+  CC [M]  drivers/bluetooth/btmrvl_main.o
+  CC      drivers/hid/hid-monterey.o
+  CC [M]  drivers/bluetooth/btmrvl_debugfs.o
+  CC      fs/xfs/xfs_iunlink_item.o
+  CC [M]  drivers/staging/rtl8723bs/hal/sdio_ops.o
+  CC      drivers/hid/hid-multitouch.o
+  CC [M]  drivers/bluetooth/btrtl.o
+  CC      drivers/hid/hid-ntrig.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723bs_xmit.o
+  CC      fs/xfs/xfs_inode_item_recover.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalBtc8723b1Ant.o
+  CC      drivers/hid/hid-ortek.o
+  CC [M]  drivers/bluetooth/btbcm.o
+  CC      fs/xfs/xfs_inode_item.o
+  CC      drivers/hid/hid-pl.o
+  CC [M]  drivers/bluetooth/btmrvl_sdio.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_MAC.o
+  CC      drivers/hid/hid-penmount.o
+  AR      fs/xfs/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_BB.o
+  AR      fs/built-in.a
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_RF.o
+  CC      drivers/hid/hid-petalynx.o
+  CC      drivers/hid/hid-prodikeys.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPhyRf_8723B.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.o
+  CC [M]  drivers/bluetooth/btusb.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/os_intfs.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/osdep_service.o
+  CC      drivers/hid/hid-primax.o
+  CC [M]  drivers/bluetooth/hci_h5.o
+  CC      drivers/hid/hid-roccat-common.o
+  CC      drivers/hid/hid-roccat.o
+  CC      drivers/hid/hid-roccat-arvo.o
+  CC      drivers/hid/hid-playstation.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/sdio_ops_linux.o
+  CC      drivers/hid/hid-roccat-isku.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/sdio_intf.o
+  LD [M]  drivers/bluetooth/hci_uart.o
+  LD [M]  drivers/bluetooth/btmrvl.o
+  CC      drivers/hid/hid-roccat-koneplus.o
+  CC      drivers/hid/hid-roccat-konepure.o
+  CC      drivers/hid/hid-roccat-kovaplus.o
+  CC      drivers/hid/hid-roccat-kone.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/xmit_linux.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/wifi_regd.o
+  CC      drivers/hid/hid-roccat-pyra.o
+  CC      drivers/hid/hid-roccat-savu.o
+  CC      drivers/hid/hid-rmi.o
+  CC      drivers/hid/hid-roccat-ryos.o
+  CC      drivers/hid/hid-roccat-lua.o
+  CC      drivers/hid/hid-sony.o
+  CC      drivers/hid/hid-sjoy.o
+  CC      drivers/hid/hid-samsung.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalBtc8723b2Ant.o
+  CC      drivers/hid/hid-sunplus.o
+  CC      drivers/hid/hid-gaff.o
+  CC      drivers/hid/hid-tmff.o
+  CC      drivers/hid/hid-tivo.o
+  CC      drivers/hid/hid-topseed.o
+  CC      drivers/hid/hid-twinhan.o
+  CC      drivers/hid/hid-thrustmaster.o
+  CC      drivers/hid/hid-steelseries.o
+  CC      drivers/hid/hid-uclogic-core.o
+  CC      drivers/hid/hid-uclogic-params.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_hal_init.o
+  CC      drivers/hid/hid-led.o
+  CC      drivers/hid/hid-uclogic-rdesc.o
+  CC      drivers/hid/hid-xinmo.o
+  CC      drivers/hid/hid-speedlink.o
+  CC      drivers/hid/hid-zpff.o
+  CC      drivers/hid/wacom_wac.o
+  CC      drivers/hid/hid-waltop.o
+  CC      drivers/hid/wacom_sys.o
+  CC      drivers/hid/hid-wiimote-core.o
+  CC      drivers/hid/hid-wiimote-debug.o
+  CC      drivers/hid/hid-wiimote-modules.o
+  CC      drivers/hid/hid-zydacron.o
+  CC      drivers/hid/hid-saitek.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_CfoTracking.o
+  CC      drivers/hid/i2c-hid/i2c-hid-core.o
+  CC      drivers/hid/usbhid/hid-core.o
+  CC      drivers/hid/i2c-hid/i2c-hid-of-goodix.o
+  CC      drivers/hid/hid-sensor-custom.o
+  CC      drivers/hid/hid-sensor-hub.o
+  CC      drivers/hid/usbhid/hiddev.o
+  CC      drivers/hid/hid-plantronics.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_btcoex.o
+  AR      drivers/hid/i2c-hid/built-in.a
+  AR      drivers/hid/usbhid/built-in.a
+  AR      drivers/hid/built-in.a
+  LD [M]  drivers/staging/rtl8723bs/r8723bs.o
+  AR      drivers/staging/built-in.a
+  AR      drivers/built-in.a
+  AR      built-in.a
+  AR      vmlinux.a
+make[3]: 'rockchip/rk3566-anbernic-rg353v.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg353ps.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg503.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg353vs.dtb' is up to date.
+make[3]: 'rockchip/rk3566-powkiddy-rgb10max3.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg353p.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg-arc-s.dtb' is up to date.
+make[3]: 'rockchip/rk3566-anbernic-rg-arc-d.dtb' is up to date.
+  LD      vmlinux.o
+  MODPOST Module.symvers
+  CC      .vmlinux.export.o
+  CC [M]  mm/zsmalloc.mod.o
+  CC [M]  .module-common.o
+  CC [M]  fs/nfsd/nfsd.mod.o
+  CC [M]  fs/ntfs3/ntfs3.mod.o
+  CC [M]  crypto/arc4.mod.o
+  CC [M]  lib/crc/crc-ccitt.mod.o
+  CC [M]  lib/crc/crc-itu-t.mod.o
+  CC [M]  lib/ts_kmp.mod.o
+  CC [M]  lib/ts_bm.mod.o
+  CC [M]  lib/ts_fsm.mod.o
+  CC [M]  drivers/gpu/drm/drm_shmem_helper.mod.o
+  CC [M]  drivers/gpu/drm/scheduler/gpu-sched.mod.o
+  CC [M]  drivers/gpu/drm/panfrost/panfrost.mod.o
+  CC [M]  drivers/block/zram/zram.mod.o
+  CC [M]  drivers/net/wireless/ath/ath9k/ath9k.mod.o
+  CC [M]  drivers/net/wireless/ath/ath9k/ath9k_hw.mod.o
+  CC [M]  drivers/net/wireless/ath/ath9k/ath9k_common.mod.o
+  CC [M]  drivers/net/wireless/ath/ath6kl/ath6kl_core.mod.o
+  CC [M]  drivers/net/wireless/ath/ath6kl/ath6kl_usb.mod.o
+  CC [M]  drivers/net/wireless/ath/ar5523/ar5523.mod.o
+  CC [M]  drivers/net/wireless/ath/ath10k/ath10k_core.mod.o
+  CC [M]  drivers/net/wireless/ath/wcn36xx/wcn36xx.mod.o
+  CC [M]  drivers/net/wireless/ath/ath.mod.o
+  CC [M]  drivers/net/wireless/atmel/at76c50x-usb.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt7601u/mt7601u.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt2x00lib.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt2x00usb.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt2800lib.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt2500usb.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt73usb.mod.o
+  CC [M]  drivers/net/wireless/ralink/rt2x00/rt2800usb.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_core.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822b.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bs.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bu.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822c.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cs.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cu.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723x.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8703b.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723cs.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723d.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723ds.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723du.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821c.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cs.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cu.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_88xxa.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821a.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812a.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821au.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812au.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814a.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814au.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_sdio.mod.o
+  CC [M]  drivers/net/wireless/realtek/rtw88/rtw88_usb.mod.o
+  CC [M]  drivers/net/wireless/zydas/zd1211rw/zd1211rw.mod.o
+  CC [M]  drivers/net/tun.mod.o
+  CC [M]  drivers/net/veth.mod.o
+  CC [M]  drivers/net/ppp/ppp_generic.mod.o
+  CC [M]  drivers/net/ppp/ppp_async.mod.o
+  CC [M]  drivers/net/ppp/bsd_comp.mod.o
+  CC [M]  drivers/net/ppp/ppp_deflate.mod.o
+  CC [M]  drivers/net/ppp/ppp_synctty.mod.o
+  CC [M]  drivers/net/ppp/pppox.mod.o
+  CC [M]  drivers/net/ppp/pppoe.mod.o
+  CC [M]  drivers/net/slip/slhc.mod.o
+  CC [M]  drivers/usb/serial/usbserial.mod.o
+  CC [M]  drivers/usb/serial/ch341.mod.o
+  CC [M]  drivers/usb/serial/cp210x.mod.o
+  CC [M]  drivers/usb/serial/ftdi_sio.mod.o
+  CC [M]  drivers/usb/serial/keyspan.mod.o
+  UPD     include/generated/utsversion.h
+  CC      init/version-timestamp.o
+  CC [M]  drivers/usb/serial/option.mod.o
+  CC [M]  drivers/usb/serial/oti6858.mod.o
+  CC [M]  drivers/usb/serial/pl2303.mod.o
+  CC [M]  drivers/usb/serial/qcserial.mod.o
+  CC [M]  drivers/usb/serial/sierra.mod.o
+  CC [M]  drivers/usb/serial/usb_wwan.mod.o
+  CC [M]  drivers/input/serio/serport.mod.o
+  CC [M]  drivers/input/joystick/xpad.mod.o
+  CC [M]  drivers/media/v4l2-core/v4l2-jpeg.mod.o
+  CC [M]  drivers/media/cec/usb/pulse8/pulse8-cec.mod.o
+  CC [M]  drivers/media/cec/usb/rainshadow/rainshadow-cec.mod.o
+  CC [M]  drivers/media/common/videobuf2/videobuf2-dma-sg.mod.o
+  CC [M]  drivers/media/platform/rockchip/rga/rockchip-rga.mod.o
+  CC [M]  drivers/media/platform/verisilicon/hantro-vpu.mod.o
+  CC [M]  drivers/staging/rtl8723bs/r8723bs.mod.o
+  CC [M]  drivers/bluetooth/hci_vhci.mod.o
+  CC [M]  drivers/bluetooth/hci_uart.mod.o
+  CC [M]  drivers/bluetooth/bfusb.mod.o
+  CC [M]  drivers/bluetooth/btusb.mod.o
+  CC [M]  drivers/bluetooth/btintel.mod.o
+  CC [M]  drivers/bluetooth/btmrvl.mod.o
+  CC [M]  drivers/bluetooth/btmrvl_sdio.mod.o
+  CC [M]  drivers/bluetooth/btbcm.mod.o
+  CC [M]  drivers/bluetooth/btrtl.mod.o
+  CC [M]  net/802/psnap.mod.o
+  CC [M]  net/802/stp.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_bitmap_ip.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_bitmap_ipmac.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_bitmap_port.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_ip.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_ipmark.mod.o
+  KSYMS   .tmp_vmlinux0.kallsyms.S
+  AS      .tmp_vmlinux0.kallsyms.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_ipport.mod.o
+  LD      .tmp_vmlinux1
+  CC [M]  net/netfilter/ipset/ip_set_hash_ipportip.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_ipportnet.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_mac.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_net.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_netport.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_netiface.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_netnet.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_hash_netportnet.mod.o
+  CC [M]  net/netfilter/ipset/ip_set_list_set.mod.o
+  CC [M]  net/netfilter/nfnetlink_acct.mod.o
+  CC [M]  net/netfilter/nf_conntrack_netlink.mod.o
+  CC [M]  net/netfilter/nfnetlink_osf.mod.o
+  CC [M]  net/netfilter/nfnetlink_cttimeout.mod.o
+  CC [M]  net/netfilter/nf_conntrack_amanda.mod.o
+  CC [M]  net/netfilter/nf_conntrack_ftp.mod.o
+  CC [M]  net/netfilter/nf_conntrack_irc.mod.o
+  CC [M]  net/netfilter/nf_conntrack_h323.mod.o
+  CC [M]  net/netfilter/nf_conntrack_broadcast.mod.o
+  CC [M]  net/netfilter/nf_conntrack_netbios_ns.mod.o
+  CC [M]  net/netfilter/nf_conntrack_snmp.mod.o
+  CC [M]  net/netfilter/nf_conntrack_pptp.mod.o
+  CC [M]  net/netfilter/nf_conntrack_sane.mod.o
+  CC [M]  net/netfilter/nf_conntrack_sip.mod.o
+  CC [M]  net/netfilter/nf_conntrack_tftp.mod.o
+  CC [M]  net/netfilter/nf_log_syslog.mod.o
+  CC [M]  net/netfilter/nf_nat_amanda.mod.o
+  CC [M]  net/netfilter/nf_nat_ftp.mod.o
+  CC [M]  net/netfilter/nf_nat_irc.mod.o
+  CC [M]  net/netfilter/nf_nat_sip.mod.o
+  CC [M]  net/netfilter/nf_nat_tftp.mod.o
+  CC [M]  net/netfilter/nf_synproxy_core.mod.o
+  CC [M]  net/netfilter/nf_conncount.mod.o
+  CC [M]  net/netfilter/nf_tables.mod.o
+  CC [M]  net/netfilter/nft_ct.mod.o
+  CC [M]  net/netfilter/nft_limit.mod.o
+  CC [M]  net/netfilter/nft_nat.mod.o
+  CC [M]  net/netfilter/nft_queue.mod.o
+  CC [M]  net/netfilter/nft_reject.mod.o
+  CC [M]  net/netfilter/nft_reject_inet.mod.o
+  CC [M]  net/netfilter/nft_log.mod.o
+  CC [M]  net/netfilter/nft_masq.mod.o
+  CC [M]  net/netfilter/nft_redir.mod.o
+  CC [M]  net/netfilter/nft_hash.mod.o
+  CC [M]  net/netfilter/nft_chain_nat.mod.o
+  CC [M]  net/netfilter/xt_mark.mod.o
+  CC [M]  net/netfilter/xt_connmark.mod.o
+  CC [M]  net/netfilter/xt_set.mod.o
+  CC [M]  net/netfilter/xt_nat.mod.o
+  CC [M]  net/netfilter/xt_CLASSIFY.mod.o
+  NM      .tmp_vmlinux1.syms
+  CC [M]  net/netfilter/xt_HMARK.mod.o
+  CC [M]  net/netfilter/xt_LED.mod.o
+  CC [M]  net/netfilter/xt_LOG.mod.o
+  CC [M]  net/netfilter/xt_NETMAP.mod.o
+  CC [M]  net/netfilter/xt_NFLOG.mod.o
+  CC [M]  net/netfilter/xt_NFQUEUE.mod.o
+  CC [M]  net/netfilter/xt_RATEEST.mod.o
+  CC [M]  net/netfilter/xt_REDIRECT.mod.o
+  CC [M]  net/netfilter/xt_MASQUERADE.mod.o
+  KSYMS   .tmp_vmlinux1.kallsyms.S
+  CC [M]  net/netfilter/xt_TCPMSS.mod.o
+  CC [M]  net/netfilter/xt_TEE.mod.o
+  CC [M]  net/netfilter/xt_IDLETIMER.mod.o
+  CC [M]  net/netfilter/xt_addrtype.mod.o
+  CC [M]  net/netfilter/xt_bpf.mod.o
+  CC [M]  net/netfilter/xt_cluster.mod.o
+  CC [M]  net/netfilter/xt_comment.mod.o
+  CC [M]  net/netfilter/xt_connbytes.mod.o
+  CC [M]  net/netfilter/xt_connlabel.mod.o
+  CC [M]  net/netfilter/xt_connlimit.mod.o
+  CC [M]  net/netfilter/xt_conntrack.mod.o
+  CC [M]  net/netfilter/xt_cpu.mod.o
+  CC [M]  net/netfilter/xt_dccp.mod.o
+  CC [M]  net/netfilter/xt_devgroup.mod.o
+  CC [M]  net/netfilter/xt_dscp.mod.o
+  CC [M]  net/netfilter/xt_ecn.mod.o
+  CC [M]  net/netfilter/xt_esp.mod.o
+  CC [M]  net/netfilter/xt_hashlimit.mod.o
+  CC [M]  net/netfilter/xt_helper.mod.o
+  CC [M]  net/netfilter/xt_hl.mod.o
+  CC [M]  net/netfilter/xt_ipcomp.mod.o
+  CC [M]  net/netfilter/xt_iprange.mod.o
+  CC [M]  net/netfilter/xt_ipvs.mod.o
+  CC [M]  net/netfilter/xt_l2tp.mod.o
+  CC [M]  net/netfilter/xt_length.mod.o
+  CC [M]  net/netfilter/xt_limit.mod.o
+  CC [M]  net/netfilter/xt_mac.mod.o
+  CC [M]  net/netfilter/xt_multiport.mod.o
+  CC [M]  net/netfilter/xt_nfacct.mod.o
+  AS      .tmp_vmlinux1.kallsyms.o
+  CC [M]  net/netfilter/xt_osf.mod.o
+  CC [M]  net/netfilter/xt_owner.mod.o
+  CC [M]  net/netfilter/xt_cgroup.mod.o
+  CC [M]  net/netfilter/xt_physdev.mod.o
+  CC [M]  net/netfilter/xt_pkttype.mod.o
+  CC [M]  net/netfilter/xt_policy.mod.o
+  CC [M]  net/netfilter/xt_quota.mod.o
+  CC [M]  net/netfilter/xt_rateest.mod.o
+  CC [M]  net/netfilter/xt_realm.mod.o
+  CC [M]  net/netfilter/xt_recent.mod.o
+  CC [M]  net/netfilter/xt_sctp.mod.o
+  CC [M]  net/netfilter/xt_socket.mod.o
+  CC [M]  net/netfilter/xt_state.mod.o
+  CC [M]  net/netfilter/xt_statistic.mod.o
+  CC [M]  net/netfilter/xt_string.mod.o
+  CC [M]  net/netfilter/xt_tcpmss.mod.o
+  CC [M]  net/netfilter/xt_time.mod.o
+  CC [M]  net/netfilter/xt_u32.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_rr.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_wrr.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lc.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_wlc.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_fo.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_ovf.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lblc.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_lblcr.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_dh.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sh.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_sed.mod.o
+  CC [M]  net/netfilter/ipvs/ip_vs_nq.mod.o
+  CC [M]  net/ipv4/netfilter/nf_socket_ipv4.mod.o
+  CC [M]  net/ipv4/netfilter/nf_tproxy_ipv4.mod.o
+  CC [M]  net/ipv4/netfilter/nf_reject_ipv4.mod.o
+  CC [M]  net/ipv4/netfilter/nf_nat_h323.mod.o
+  CC [M]  net/ipv4/netfilter/nf_nat_pptp.mod.o
+  CC [M]  net/ipv4/netfilter/nf_nat_snmp_basic.mod.o
+  CC [M]  net/ipv4/netfilter/nft_reject_ipv4.mod.o
+  CC [M]  net/ipv4/netfilter/ipt_ah.mod.o
+  CC [M]  net/ipv4/netfilter/ipt_SYNPROXY.mod.o
+  CC [M]  net/ipv4/netfilter/nf_dup_ipv4.mod.o
+  CC [M]  net/ipv4/ipip.mod.o
+  CC [M]  net/ipv4/gre.mod.o
+  CC [M]  net/ipv4/ip_gre.mod.o
+  CC [M]  net/ipv4/tcp_bic.mod.o
+  CC [M]  net/ipv4/tcp_cdg.mod.o
+  CC [M]  net/ipv4/tcp_dctcp.mod.o
+  CC [M]  net/ipv4/tcp_westwood.mod.o
+  CC [M]  net/ipv4/tcp_highspeed.mod.o
+  CC [M]  net/ipv4/tcp_hybla.mod.o
+  CC [M]  net/ipv4/tcp_htcp.mod.o
+  CC [M]  net/ipv4/tcp_vegas.mod.o
+  LD      .tmp_vmlinux2
+  CC [M]  net/ipv4/tcp_veno.mod.o
+  CC [M]  net/ipv4/tcp_scalable.mod.o
+  CC [M]  net/ipv4/tcp_lp.mod.o
+  CC [M]  net/ipv4/tcp_yeah.mod.o
+  CC [M]  net/ipv4/tcp_illinois.mod.o
+  CC [M]  net/unix/unix_diag.mod.o
+  CC [M]  net/ipv6/netfilter/nf_socket_ipv6.mod.o
+  CC [M]  net/ipv6/netfilter/nf_tproxy_ipv6.mod.o
+  CC [M]  net/ipv6/netfilter/nf_reject_ipv6.mod.o
+  CC [M]  net/ipv6/netfilter/nf_dup_ipv6.mod.o
+  CC [M]  net/ipv6/netfilter/nft_reject_ipv6.mod.o
+  CC [M]  net/mpls/mpls_gso.mod.o
+  CC [M]  net/llc/llc.mod.o
+  CC [M]  net/bridge/netfilter/nft_meta_bridge.mod.o
+  CC [M]  net/bridge/netfilter/ebt_802_3.mod.o
+  CC [M]  net/bridge/netfilter/ebt_among.mod.o
+  CC [M]  net/bridge/netfilter/ebt_arp.mod.o
+  CC [M]  net/bridge/netfilter/ebt_ip.mod.o
+  CC [M]  net/bridge/netfilter/ebt_limit.mod.o
+  CC [M]  net/bridge/netfilter/ebt_mark_m.mod.o
+  CC [M]  net/bridge/netfilter/ebt_pkttype.mod.o
+  CC [M]  net/bridge/netfilter/ebt_stp.mod.o
+  CC [M]  net/bridge/netfilter/ebt_vlan.mod.o
+  CC [M]  net/bridge/netfilter/ebt_arpreply.mod.o
+  CC [M]  net/bridge/netfilter/ebt_dnat.mod.o
+  CC [M]  net/bridge/netfilter/ebt_mark.mod.o
+  CC [M]  net/bridge/netfilter/ebt_redirect.mod.o
+  CC [M]  net/bridge/netfilter/ebt_snat.mod.o
+  CC [M]  net/bridge/netfilter/ebt_log.mod.o
+  CC [M]  net/bridge/netfilter/ebt_nflog.mod.o
+  CC [M]  net/bridge/bridge.mod.o
+  CC [M]  net/bridge/br_netfilter.mod.o
+  CC [M]  net/bluetooth/bluetooth.mod.o
+  CC [M]  net/bluetooth/hidp/hidp.mod.o
+  CC [M]  net/openvswitch/openvswitch.mod.o
+  CC [M]  net/openvswitch/vport-gre.mod.o
+  CC [M]  net/nsh/nsh.mod.o
+  NM      .tmp_vmlinux2.syms
+  LD [M]  mm/zsmalloc.ko
+  LD [M]  fs/nfsd/nfsd.ko
+  LD [M]  fs/ntfs3/ntfs3.ko
+  LD [M]  crypto/arc4.ko
+  LD [M]  lib/crc/crc-ccitt.ko
+  LD [M]  lib/crc/crc-itu-t.ko
+  LD [M]  lib/ts_kmp.ko
+  LD [M]  lib/ts_bm.ko
+  LD [M]  lib/ts_fsm.ko
+  LD [M]  drivers/gpu/drm/drm_shmem_helper.ko
+  LD [M]  drivers/gpu/drm/scheduler/gpu-sched.ko
+  LD [M]  drivers/gpu/drm/panfrost/panfrost.ko
+  LD [M]  drivers/block/zram/zram.ko
+  LD [M]  drivers/net/wireless/ath/ath9k/ath9k.ko
+  LD [M]  drivers/net/wireless/ath/ath9k/ath9k_hw.ko
+  LD [M]  drivers/net/wireless/ath/ath6kl/ath6kl_core.ko
+  LD [M]  drivers/net/wireless/ath/ath9k/ath9k_common.ko
+  LD [M]  drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko
+  LD [M]  drivers/net/wireless/ath/ar5523/ar5523.ko
+  LD [M]  drivers/net/wireless/ath/ath10k/ath10k_core.ko
+  LD [M]  drivers/net/wireless/ath/wcn36xx/wcn36xx.ko
+  LD [M]  drivers/net/wireless/ath/ath.ko
+  LD [M]  drivers/net/wireless/atmel/at76c50x-usb.ko
+  LD [M]  drivers/net/wireless/mediatek/mt7601u/mt7601u.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt2x00usb.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt2800lib.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt2500usb.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt73usb.ko
+  LD [M]  drivers/net/wireless/ralink/rt2x00/rt2800usb.ko
+  LD [M]  drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_core.ko
+  LD [M]  drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822b.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bs.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822bu.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822c.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cs.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8822cu.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723x.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8703b.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723cs.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723d.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723ds.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8723du.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821c.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cu.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821cs.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_88xxa.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821a.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812a.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814a.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8812au.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8821au.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_8814au.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_sdio.ko
+  LD [M]  drivers/net/wireless/realtek/rtw88/rtw88_usb.ko
+  LD [M]  drivers/net/wireless/zydas/zd1211rw/zd1211rw.ko
+  LD [M]  drivers/net/tun.ko
+  LD [M]  drivers/net/veth.ko
+  LD [M]  drivers/net/ppp/ppp_generic.ko
+  LD [M]  drivers/net/ppp/bsd_comp.ko
+  LD [M]  drivers/net/ppp/ppp_async.ko
+  LD [M]  drivers/net/ppp/ppp_synctty.ko
+  LD [M]  drivers/net/ppp/ppp_deflate.ko
+  LD [M]  drivers/net/ppp/pppox.ko
+  LD [M]  drivers/net/ppp/pppoe.ko
+  LD [M]  drivers/net/slip/slhc.ko
+  LD [M]  drivers/usb/serial/usbserial.ko
+  LD [M]  drivers/usb/serial/ch341.ko
+  LD [M]  drivers/usb/serial/cp210x.ko
+  LD [M]  drivers/usb/serial/ftdi_sio.ko
+  LD [M]  drivers/usb/serial/keyspan.ko
+  LD [M]  drivers/usb/serial/option.ko
+  LD [M]  drivers/usb/serial/oti6858.ko
+  LD [M]  drivers/usb/serial/pl2303.ko
+  LD [M]  drivers/usb/serial/qcserial.ko
+  LD [M]  drivers/usb/serial/sierra.ko
+  LD [M]  drivers/usb/serial/usb_wwan.ko
+  LD [M]  drivers/input/joystick/xpad.ko
+  LD [M]  drivers/input/serio/serport.ko
+  LD [M]  drivers/media/v4l2-core/v4l2-jpeg.ko
+  LD [M]  drivers/media/cec/usb/pulse8/pulse8-cec.ko
+  LD [M]  drivers/media/cec/usb/rainshadow/rainshadow-cec.ko
+  LD [M]  drivers/media/common/videobuf2/videobuf2-dma-sg.ko
+  LD [M]  drivers/media/platform/rockchip/rga/rockchip-rga.ko
+  LD [M]  drivers/media/platform/verisilicon/hantro-vpu.ko
+  LD [M]  drivers/staging/rtl8723bs/r8723bs.ko
+  LD [M]  drivers/bluetooth/hci_vhci.ko
+  LD [M]  drivers/bluetooth/bfusb.ko
+  LD [M]  drivers/bluetooth/hci_uart.ko
+  LD [M]  drivers/bluetooth/btusb.ko
+  LD [M]  drivers/bluetooth/btmrvl.ko
+  LD [M]  drivers/bluetooth/btintel.ko
+  LD [M]  drivers/bluetooth/btmrvl_sdio.ko
+  LD [M]  drivers/bluetooth/btbcm.ko
+  LD [M]  drivers/bluetooth/btrtl.ko
+  LD [M]  net/802/psnap.ko
+  LD [M]  net/802/stp.ko
+  LD [M]  net/netfilter/ipset/ip_set_bitmap_ip.ko
+  LD [M]  net/netfilter/ipset/ip_set_bitmap_ipmac.ko
+  LD [M]  net/netfilter/ipset/ip_set_bitmap_port.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_ip.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_ipmark.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_ipportip.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_ipport.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_ipportnet.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_mac.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_net.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_netport.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_netiface.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_netportnet.ko
+  LD [M]  net/netfilter/ipset/ip_set_hash_netnet.ko
+  LD [M]  net/netfilter/ipset/ip_set_list_set.ko
+  LD [M]  net/netfilter/nfnetlink_acct.ko
+  LD [M]  net/netfilter/nfnetlink_osf.ko
+  LD [M]  net/netfilter/nf_conntrack_netlink.ko
+  LD [M]  net/netfilter/nfnetlink_cttimeout.ko
+  LD [M]  net/netfilter/nf_conntrack_amanda.ko
+  LD [M]  net/netfilter/nf_conntrack_ftp.ko
+  LD [M]  net/netfilter/nf_conntrack_h323.ko
+  LD [M]  net/netfilter/nf_conntrack_irc.ko
+  LD [M]  net/netfilter/nf_conntrack_broadcast.ko
+  LD [M]  net/netfilter/nf_conntrack_netbios_ns.ko
+  LD [M]  net/netfilter/nf_conntrack_snmp.ko
+  LD [M]  net/netfilter/nf_conntrack_pptp.ko
+  LD [M]  net/netfilter/nf_conntrack_sane.ko
+  LD [M]  net/netfilter/nf_conntrack_sip.ko
+  LD [M]  net/netfilter/nf_conntrack_tftp.ko
+  LD [M]  net/netfilter/nf_nat_amanda.ko
+  LD [M]  net/netfilter/nf_log_syslog.ko
+  LD [M]  net/netfilter/nf_nat_ftp.ko
+  LD [M]  net/netfilter/nf_nat_irc.ko
+  LD [M]  net/netfilter/nf_nat_sip.ko
+  LD [M]  net/netfilter/nf_nat_tftp.ko
+  LD [M]  net/netfilter/nf_synproxy_core.ko
+  LD [M]  net/netfilter/nf_conncount.ko
+  LD [M]  net/netfilter/nf_tables.ko
+  LD [M]  net/netfilter/nft_ct.ko
+  LD [M]  net/netfilter/nft_limit.ko
+  LD [M]  net/netfilter/nft_nat.ko
+  LD [M]  net/netfilter/nft_queue.ko
+  LD [M]  net/netfilter/nft_reject.ko
+  LD [M]  net/netfilter/nft_reject_inet.ko
+  LD [M]  net/netfilter/nft_log.ko
+  LD [M]  net/netfilter/nft_redir.ko
+  LD [M]  net/netfilter/nft_masq.ko
+  LD [M]  net/netfilter/nft_hash.ko
+  LD [M]  net/netfilter/nft_chain_nat.ko
+  LD [M]  net/netfilter/xt_mark.ko
+  LD [M]  net/netfilter/xt_connmark.ko
+  LD [M]  net/netfilter/xt_set.ko
+  LD [M]  net/netfilter/xt_nat.ko
+  LD [M]  net/netfilter/xt_CLASSIFY.ko
+  LD [M]  net/netfilter/xt_HMARK.ko
+  LD [M]  net/netfilter/xt_LED.ko
+  LD [M]  net/netfilter/xt_LOG.ko
+  LD [M]  net/netfilter/xt_NETMAP.ko
+  LD [M]  net/netfilter/xt_NFLOG.ko
+  LD [M]  net/netfilter/xt_NFQUEUE.ko
+  LD [M]  net/netfilter/xt_RATEEST.ko
+  LD [M]  net/netfilter/xt_REDIRECT.ko
+  LD [M]  net/netfilter/xt_MASQUERADE.ko
+  LD [M]  net/netfilter/xt_TCPMSS.ko
+  LD [M]  net/netfilter/xt_TEE.ko
+  LD [M]  net/netfilter/xt_IDLETIMER.ko
+  LD [M]  net/netfilter/xt_addrtype.ko
+  LD [M]  net/netfilter/xt_cluster.ko
+  LD [M]  net/netfilter/xt_bpf.ko
+  LD [M]  net/netfilter/xt_comment.ko
+  LD [M]  net/netfilter/xt_connbytes.ko
+  LD [M]  net/netfilter/xt_connlabel.ko
+  LD [M]  net/netfilter/xt_connlimit.ko
+  LD [M]  net/netfilter/xt_conntrack.ko
+  LD [M]  net/netfilter/xt_cpu.ko
+  LD [M]  net/netfilter/xt_dccp.ko
+  LD [M]  net/netfilter/xt_devgroup.ko
+  LD [M]  net/netfilter/xt_dscp.ko
+  LD [M]  net/netfilter/xt_ecn.ko
+  LD [M]  net/netfilter/xt_esp.ko
+  LD [M]  net/netfilter/xt_hashlimit.ko
+  LD [M]  net/netfilter/xt_helper.ko
+  LD [M]  net/netfilter/xt_hl.ko
+  LD [M]  net/netfilter/xt_iprange.ko
+  LD [M]  net/netfilter/xt_ipcomp.ko
+  LD [M]  net/netfilter/xt_ipvs.ko
+  LD [M]  net/netfilter/xt_length.ko
+  LD [M]  net/netfilter/xt_l2tp.ko
+  LD [M]  net/netfilter/xt_mac.ko
+  LD [M]  net/netfilter/xt_limit.ko
+  LD [M]  net/netfilter/xt_multiport.ko
+  LD [M]  net/netfilter/xt_nfacct.ko
+  LD [M]  net/netfilter/xt_osf.ko
+  LD [M]  net/netfilter/xt_owner.ko
+  LD [M]  net/netfilter/xt_cgroup.ko
+  LD [M]  net/netfilter/xt_physdev.ko
+  LD [M]  net/netfilter/xt_pkttype.ko
+  LD [M]  net/netfilter/xt_policy.ko
+  LD [M]  net/netfilter/xt_quota.ko
+  LD [M]  net/netfilter/xt_realm.ko
+  LD [M]  net/netfilter/xt_rateest.ko
+  LD [M]  net/netfilter/xt_recent.ko
+  LD [M]  net/netfilter/xt_sctp.ko
+  LD [M]  net/netfilter/xt_socket.ko
+  LD [M]  net/netfilter/xt_state.ko
+  LD [M]  net/netfilter/xt_statistic.ko
+  LD [M]  net/netfilter/xt_string.ko
+  LD [M]  net/netfilter/xt_tcpmss.ko
+  LD [M]  net/netfilter/xt_time.ko
+  LD [M]  net/netfilter/xt_u32.ko
+  LD [M]  net/netfilter/ipvs/ip_vs.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_rr.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_wrr.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_lc.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_wlc.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_fo.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_ovf.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_lblc.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_lblcr.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_sh.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_dh.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_sed.ko
+  LD [M]  net/netfilter/ipvs/ip_vs_nq.ko
+  LD [M]  net/ipv4/netfilter/nf_socket_ipv4.ko
+  LD [M]  net/ipv4/netfilter/nf_tproxy_ipv4.ko
+  LD [M]  net/ipv4/netfilter/nf_reject_ipv4.ko
+  LD [M]  net/ipv4/netfilter/nf_nat_h323.ko
+  LD [M]  net/ipv4/netfilter/nf_nat_pptp.ko
+  LD [M]  net/ipv4/netfilter/nf_nat_snmp_basic.ko
+  LD [M]  net/ipv4/netfilter/nft_reject_ipv4.ko
+  LD [M]  net/ipv4/netfilter/ipt_ah.ko
+  LD [M]  net/ipv4/netfilter/nf_dup_ipv4.ko
+  LD [M]  net/ipv4/netfilter/ipt_SYNPROXY.ko
+  LD [M]  net/ipv4/ipip.ko
+  LD [M]  net/ipv4/gre.ko
+  LD [M]  net/ipv4/ip_gre.ko
+  LD [M]  net/ipv4/tcp_bic.ko
+  LD [M]  net/ipv4/tcp_cdg.ko
+  LD [M]  net/ipv4/tcp_dctcp.ko
+  LD [M]  net/ipv4/tcp_westwood.ko
+  KSYMS   .tmp_vmlinux2.kallsyms.S
+  LD [M]  net/ipv4/tcp_highspeed.ko
+  LD [M]  net/ipv4/tcp_hybla.ko
+  LD [M]  net/ipv4/tcp_htcp.ko
+  LD [M]  net/ipv4/tcp_vegas.ko
+  LD [M]  net/ipv4/tcp_veno.ko
+  LD [M]  net/ipv4/tcp_scalable.ko
+  LD [M]  net/ipv4/tcp_lp.ko
+  LD [M]  net/ipv4/tcp_yeah.ko
+  LD [M]  net/ipv4/tcp_illinois.ko
+  LD [M]  net/unix/unix_diag.ko
+  LD [M]  net/ipv6/netfilter/nf_socket_ipv6.ko
+  LD [M]  net/ipv6/netfilter/nf_tproxy_ipv6.ko
+  LD [M]  net/ipv6/netfilter/nf_reject_ipv6.ko
+  LD [M]  net/ipv6/netfilter/nf_dup_ipv6.ko
+  LD [M]  net/ipv6/netfilter/nft_reject_ipv6.ko
+  LD [M]  net/mpls/mpls_gso.ko
+  LD [M]  net/llc/llc.ko
+  LD [M]  net/bridge/netfilter/nft_meta_bridge.ko
+  LD [M]  net/bridge/netfilter/ebt_802_3.ko
+  LD [M]  net/bridge/netfilter/ebt_among.ko
+  LD [M]  net/bridge/netfilter/ebt_arp.ko
+  LD [M]  net/bridge/netfilter/ebt_limit.ko
+  LD [M]  net/bridge/netfilter/ebt_ip.ko
+  LD [M]  net/bridge/netfilter/ebt_mark_m.ko
+  LD [M]  net/bridge/netfilter/ebt_pkttype.ko
+  LD [M]  net/bridge/netfilter/ebt_stp.ko
+  LD [M]  net/bridge/netfilter/ebt_arpreply.ko
+  LD [M]  net/bridge/netfilter/ebt_mark.ko
+  LD [M]  net/bridge/netfilter/ebt_vlan.ko
+  LD [M]  net/bridge/netfilter/ebt_dnat.ko
+  LD [M]  net/bridge/netfilter/ebt_redirect.ko
+  LD [M]  net/bridge/netfilter/ebt_snat.ko
+  LD [M]  net/bridge/netfilter/ebt_log.ko
+  LD [M]  net/bridge/bridge.ko
+  LD [M]  net/openvswitch/openvswitch.ko
+  LD [M]  net/bridge/netfilter/ebt_nflog.ko
+  LD [M]  net/bluetooth/bluetooth.ko
+  LD [M]  net/nsh/nsh.ko
+  LD [M]  net/openvswitch/vport-gre.ko
+  LD [M]  net/bridge/br_netfilter.ko
+  LD [M]  net/bluetooth/hidp/hidp.ko
+  AS      .tmp_vmlinux2.kallsyms.o
+  LD      vmlinux.unstripped
+  NM      System.map
+  SORTTAB vmlinux.unstripped
+  OBJCOPY vmlinux
+  GEN     modules.builtin.modinfo
+  GEN     modules.builtin
+  OBJCOPY arch/arm64/boot/Image
+make[2]: Leaving directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2'
+make[2]: Entering directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf'
+  BUILD:   Doing 'make [33m-j24[m' parallel build
+[0;33mWarning[0m: Kernel ABI header differences:
+  diff -u tools/include/uapi/linux/kvm.h include/uapi/linux/kvm.h
+  diff -u tools/arch/x86/include/asm/msr-index.h arch/x86/include/asm/msr-index.h
+  diff -u tools/arch/x86/include/uapi/asm/kvm.h arch/x86/include/uapi/asm/kvm.h
+  diff -u tools/arch/x86/include/uapi/asm/svm.h arch/x86/include/uapi/asm/svm.h
+Makefile.config:858: Python support disabled by user
+Makefile.config:1159: Rust is not found. Test workloads with rust are disabled.
 
-PKG_NAME="libmali"
-PKG_LICENSE="LES-PRE-20769"
-PKG_SITE="https://github.com/ROCKNIX/libmali"
-PKG_VERSION="0fe30426b822699f0a660268a6040fdafce229d1"
-PKG_SHA256="b2d0b4904577aa1cf737f1402052a6651f84fcbc94aca0601b782ff63cc9167b"
-# zip format makes extract very fast (<1s). tgz takes 20 seconds to scan the whole file
-PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.zip"
-PKG_DEPENDS_TARGET="toolchain libdrm patchelf:host gpudriver SDL2_glesonly gl4es"
-PKG_LONGDESC="OpenGL ES user-space binary for the ARM Mali GPU family"
-PKG_TOOLCHAIN="meson"
-PKG_PATCH_DIRS+=" ${DEVICE}"
+Auto-detecting system features:
+...                                   libdw: [ [32mon[m  ]
+...                                   glibc: [ [32mon[m  ]
+...                                  libelf: [ [32mon[m  ]
+...                                 libnuma: [ [31mOFF[m ]
+...                  numa_num_possible_cpus: [ [31mOFF[m ]
+...                               libpython: [ [32mon[m  ]
+...                             libcapstone: [ [31mOFF[m ]
+...                               llvm-perf: [ [31mOFF[m ]
+...                                    zlib: [ [32mon[m  ]
+...                                    lzma: [ [32mon[m  ]
+...                                     bpf: [ [32mon[m  ]
+...                                  libaio: [ [32mon[m  ]
+...                                 libzstd: [ [32mon[m  ]
+...                              libopenssl: [ [32mon[m  ]
+...                                    rust: [ [31mOFF[m ]
 
-# patchelf is incompatible with strip, but is needed to ensure apps call wrapped functions
-PKG_BUILD_FLAGS="-strip"
-
-case "${DEVICE}" in
-  S922X)
-    DRIVER_VERSION="r51p0"
-    PKG_DEPENDS_TARGET+=" vulkan-wsi-layer vulkan-tools"
-  ;;
-  RK3588)
-    DRIVER_VERSION="g13p0"
-  ;;
-esac
-
-case "${DISPLAYSERVER}" in
-  wl)
-    PLATFORM="-wayland-gbm"
-    PKG_DEPENDS_TARGET+=" wayland"
+  GEN     /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/arch/arm64/include/generated/asm/sysreg-defs.h
+  PERF_VERSION = 7.0.2
+  GEN     perf-archive
+  GEN     perf-iostat
+  CC      dlfilters/dlfilter-test-api-v0.o
+  CC      dlfilters/dlfilter-test-api-v2.o
+  CC      dlfilters/dlfilter-show-cycles.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/include/subcmd/exec-cmd.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/include/subcmd/help.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/include/subcmd/pager.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/include/subcmd/parse-options.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/include/subcmd/run-command.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/bpf_perf.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/core.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/cpumap.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/threadmap.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/cpu.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsymbol/include/symbol/kallsyms.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/debug.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/evlist.h
+  LINK    dlfilters/dlfilter-show-cycles.so
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/io_dir.h
+  LINK    dlfilters/dlfilter-test-api-v0.so
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsymbol/kallsyms.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/io.h
+  INSTALL libsubcmd_headers
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/core.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/evsel.h
+  INSTALL libsymbol_headers
+  LINK    dlfilters/dlfilter-test-api-v2.so
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/fd/array.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/cpu.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/event.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/debug.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/mmap.h
+  GEN     /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/bpf_helper_defs.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/cpumap.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/schedstat-v15.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/schedstat-v16.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/perf/schedstat-v17.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/fs/fs.h
+  MKDIR   /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fd/
+  MKDIR   /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/include/api/fs/tracing_path.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/cpumap.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/threadmap.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/str_error_r.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fd/array.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/libbpf.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/fs.o
+  INSTALL libapi_headers
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/evsel.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/evlist.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/evsel.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/btf.h
+  MKDIR   /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/evlist.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/libbpf_common.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/lib.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/tracing_path.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/mmap.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/libbpf_legacy.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/mmap.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/rc_check.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf_helpers.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/cgroup.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf_tracing.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/threadmap.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf_endian.h
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/zalloc.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf_core_read.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/include/internal/xyarray.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/skel_internal.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/libbpf_version.h
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/usdt.bpf.h
+  INSTALL libperf_headers
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/xyarray.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/lib.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/exec-cmd.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/help.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/pager.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/parse-options.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/run-command.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/sigchain.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/subcmd-config.o
+  INSTALL /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/include/bpf/bpf_helper_defs.h
+  INSTALL libbpf_headers
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fd/libapi-in.o
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsymbol/libsymbol-in.o
+  AR      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsymbol/libsymbol.a
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/fs/libapi-in.o
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/libapi-in.o
+  AR      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libapi/libapi.a
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/libbpf.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/bpf.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/nlattr.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/btf.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/libbpf_utils.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/netlink.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/bpf_prog_linfo.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/libbpf_probes.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/hashmap.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/btf_dump.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/ringbuf.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/strset.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/linker.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/gen_loader.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/relo_core.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/usdt.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/zip.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/elf.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/features.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/btf_iter.o
+  CC      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/btf_relocate.o
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/libsubcmd-in.o
+  AR      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libsubcmd/libsubcmd.a
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/libperf-in.o
+  AR      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libperf/libperf.a
+  LD      /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/staticobjs/libbpf-in.o
+  LINK    /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf/libbpf/libbpf.a
+  CC      builtin-bench.o
+  CC      bench/sched-messaging.o
+  CC      bench/sched-pipe.o
+  CC      ui/setup.o
+  CC      tests/builtin-test.o
+  CC      builtin-annotate.o
+  LD      scripts/perf-util-in.o
+  CC      arch/common.o
+  CC      builtin-check.o
+  CC      ui/helpline.o
+  CC      tests/tests-scripts.o
+  CC      builtin-config.o
+  CC      bench/sched-seccomp-notify.o
+  CC      tests/parse-events.o
+  CC      ui/progress.o
+  CC      builtin-diff.o
+  CC      bench/syscall.o
+  CC      arch/arm64/tests/regs_load.o
+  CC      tests/dso-data.o
+  CC      ui/util.o
+  CC      builtin-evlist.o
+  CC      arch/arm64/util/../../arm/util/auxtrace.o
+  CC      tests/vmlinux-kallsyms.o
+  GEN     pmu-events/arch/common/common/legacy-cache.json
+  CC      arch/arm64/tests/dwarf-unwind.o
+  CC      util/annotate-arch/annotate-arc.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a34/extra-metrics.json
+  CC      ui/hist.o
+  CC      ui/stdio/hist.o
+  CC      bench/mem-functions.o
+  CC      builtin-ftrace.o
+  CC      util/annotate-arch/annotate-arm.o
+  CC      arch/arm64/util/../../arm/util/cs-etm.o
+  CC      arch/arm64/tests/arch-tests.o
+  CC      bench/futex.o
+  CC      util/annotate-arch/annotate-arm64.o
+  CC      arch/arm64/util/../../arm/util/pmu.o
+  CC      tests/openat-syscall.o
+  CC      builtin-help.o
+  CC      arch/arm64/tests/cpuid-match.o
+  CC      util/perf-regs-arch/perf_regs_aarch64.o
+  CC      arch/arm64/util/arm-spe.o
+  CC      util/perf-regs-arch/perf_regs_arm.o
+  CC      arch/arm64/util/header.o
+  LD      util/kvm-stat-arch/perf-util-in.o
+  CC      tests/openat-syscall-all-cpus.o
+  CC      util/annotate-arch/annotate-csky.o
+  CC      tests/mmap-basic.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a35/extra-metrics.json
+  CC      util/perf-regs-arch/perf_regs_csky.o
+  CC      util/perf-regs-arch/perf_regs_loongarch.o
+  LD      arch/arm64/tests/perf-test-in.o
+  CC      tests/perf-record.o
+  CC      tests/evsel-roundtrip-name.o
+  LD      arch/arm64/perf-test-in.o
+  CC      util/annotate-arch/annotate-loongarch.o
+  LD      arch/perf-test-in.o
+  CC      arch/arm64/util/hisi-ptt.o
+  CC      tests/fdarray.o
+  CC      builtin-buildid-list.o
+  CC      bench/futex-hash.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a510/extra-metrics.json
+  CC      arch/arm64/util/machine.o
+  CC      bench/futex-wake.o
+  CC      builtin-buildid-cache.o
+  CC      util/perf-regs-arch/perf_regs_mips.o
+  CC      tests/pmu.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a53/extra-metrics.json
+  CC      arch/arm64/util/mem-events.o
+  CC      util/annotate-arch/annotate-mips.o
+  CC      bench/futex-wake-parallel.o
+  CC      util/perf-regs-arch/perf_regs_powerpc.o
+  CC      tests/pmu-events.o
+  CC      tests/hists_common.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a55/extra-metrics.json
+  CC      builtin-kallsyms.o
+  CC      tests/hists_link.o
+  CC      util/perf-regs-arch/perf_regs_riscv.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a57-a72/extra-metrics.json
+  CC      util/annotate-arch/annotate-x86.o
+  CC      arch/arm64/util/pmu.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a65-e1/extra-metrics.json
+  CC      builtin-list.o
+  CC      builtin-record.o
+  CC      util/intel-pt-decoder/intel-pt-pkt-decoder.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a710/extra-metrics.json
+  CC      util/perf-regs-arch/perf_regs_s390.o
+  CC      tests/hists_filter.o
+  CC      util/perf-regs-arch/perf_regs_x86.o
+  CC      builtin-report.o
+  CC      tests/hists_output.o
+  CC      bench/futex-requeue.o
+  CC      arch/arm64/util/tsc.o
+  CC      util/arm-spe-decoder/arm-spe-pkt-decoder.o
+  CC      builtin-stat.o
+  CC      util/annotate-arch/annotate-powerpc.o
+  CC      tests/hists_cumulate.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a73/extra-metrics.json
+  LD      arch/arm64/util/perf-util-in.o
+  LD      arch/arm64/perf-util-in.o
+  LD      arch/perf-util-in.o
+  CC      tests/bp_signal.o
+  CC      builtin-top.o
+  CC      util/intel-pt-decoder/intel-pt-insn-decoder.o
+  CC      bench/futex-lock-pi.o
+  LD      util/perf-regs-arch/perf-util-in.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a75/extra-metrics.json
+  CC      util/intel-pt-decoder/intel-pt-log.o
+  CC      builtin-script.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a76/extra-metrics.json
+  CC      bench/epoll-wait.o
+  CC      util/annotate-arch/annotate-riscv64.o
+  CC      util/hisi-ptt-decoder/hisi-ptt-pkt-decoder.o
+  CC      util/annotate-arch/annotate-s390.o
+  CC      util/intel-pt-decoder/intel-pt-decoder.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a77/extra-metrics.json
+  CC      bench/epoll-ctl.o
+  CC      bench/synthesize.o
+  CC      util/arm-spe-decoder/arm-spe-decoder.o
+  CC      tests/bp_signal_overflow.o
+  CC      util/annotate-arch/annotate-sparc.o
+  CC      tests/bp_account.o
+  CC      util/dwarf-regs-arch/dwarf-regs-arm64.o
+  LD      util/hisi-ptt-decoder/perf-util-in.o
+  LD      util/scripting-engines/perf-util-in.o
+  CC      util/dwarf-regs-arch/dwarf-regs-arm.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a78/extra-metrics.json
+  CC      bench/kallsyms-parse.o
+  GEN     util/intel-pt-decoder/inat-tables.c
+  CC      util/intel-pt-decoder/insn.o
+  CC      bench/find-bit-bench.o
+  GEN     pmu-events/arch/arm64/arm/cortex-x1/extra-metrics.json
+  CC      builtin-kvm.o
+  CC      builtin-inject.o
+  GEN     pmu-events/arch/arm64/arm/cortex-x2/extra-metrics.json
+  LD      util/arm-spe-decoder/perf-util-in.o
+  CC      util/dwarf-regs-arch/dwarf-regs-csky.o
+  CC      util/arm64-frame-pointer-unwind-support.o
+  CC      tests/wp.o
+  CC      builtin-mem.o
+  CC      util/addr2line.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-n1/extra-metrics.json
+  CC      builtin-data.o
+  LD      util/annotate-arch/perf-util-in.o
+  CC      util/intel-pt-decoder/inat.o
+  CC      bench/inject-buildid.o
+  CC      util/dwarf-regs-arch/dwarf-regs-loongarch.o
+  CC      util/addr_location.o
+  CC      tests/task-exit.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-n2-v2/extra-metrics.json
+  GEN     pmu-events/arch/arm64/arm/neoverse-n3/extra-metrics.json
+  CC      builtin-version.o
+  CC      tests/sw-clock.o
+  CC      builtin-c2c.o
+  CC      bench/evlist-open-close.o
+  CC      util/dwarf-regs-arch/dwarf-regs-mips.o
+  CC      builtin-daemon.o
+  CC      util/annotate.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-v1/extra-metrics.json
+  GEN     pmu-events/arch/arm64/arm/neoverse-v3/extra-metrics.json
+  CC      tests/mmap-thread-lookup.o
+  CC      builtin-probe.o
+  CC      util/dwarf-regs-arch/dwarf-regs-powerpc.o
+  CC      tests/thread-maps-share.o
+  CC      perf.o
+  CC      util/blake2s.o
+  LD      arch/perf-in.o
+  CC      util/dwarf-regs-arch/dwarf-regs-riscv.o
+  CC      util/dwarf-regs-arch/dwarf-regs-s390.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a34/extra-metricgroups.json
+  CC      util/block-info.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a35/extra-metricgroups.json
+  CC      tests/keep-tracking.o
+  CC      bench/breakpoint.o
+  CC      bench/pmu-scan.o
+  CC      util/dwarf-regs-arch/dwarf-regs-x86.o
+  CC      util/block-range.o
+  CC      tests/code-reading.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a510/extra-metricgroups.json
+  CC      util/build-id.o
+  CC      util/cacheline.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a53/extra-metricgroups.json
+  CC      util/config.o
+  CC      bench/uprobe.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a55/extra-metricgroups.json
+  CC      tests/sample-parsing.o
+  CC      util/copyfile.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a57-a72/extra-metricgroups.json
+  CC      util/ctype.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a65-e1/extra-metricgroups.json
+  GEN     pmu-events/arch/arm64/arm/cortex-a710/extra-metricgroups.json
+  CC      util/db-export.o
+  CC      util/disasm.o
+  CC      tests/parse-no-sample-id-all.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a73/extra-metricgroups.json
+  CC      tests/kmod-path.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a75/extra-metricgroups.json
+  LD      ui/perf-ui-in.o
+  LD      perf-ui-in.o
+  AR      libperf-ui.a
+  CC      util/env.o
+  LD      util/dwarf-regs-arch/perf-util-in.o
+  CC      tests/thread-map.o
+  CC      util/event.o
+  LD      bench/perf-bench-in.o
+  LD      perf-bench-in.o
+  AR      libperf-bench.a
+  GEN     pmu-events/arch/arm64/arm/cortex-a76/extra-metricgroups.json
+  CC      tests/topology.o
+  CC      util/evlist.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a77/extra-metricgroups.json
+  CC      tests/mem.o
+  GEN     pmu-events/arch/arm64/arm/cortex-a78/extra-metricgroups.json
+  CC      util/sideband_evlist.o
+  LD      util/intel-pt-decoder/perf-util-in.o
+  CC      util/evsel.o
+  CC      tests/cpumap.o
+  GEN     pmu-events/arch/arm64/arm/cortex-x1/extra-metricgroups.json
+  GEN     pmu-events/arch/arm64/arm/cortex-x2/extra-metricgroups.json
+  CC      tests/stat.o
+  CC      tests/event_update.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-n1/extra-metricgroups.json
+  GEN     pmu-events/arch/arm64/arm/neoverse-n2-v2/extra-metricgroups.json
+  CC      util/evsel_fprintf.o
+  CC      tests/event-times.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-n3/extra-metricgroups.json
+  CC      tests/expr.o
+  CC      util/perf_event_attr_fprintf.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-v1/extra-metricgroups.json
+  CC      util/evswitch.o
+  CC      util/find_bit.o
+  CC      tests/backward-ring-buffer.o
+  CC      tests/sdt.o
+  CC      util/levenshtein.o
+  CC      tests/is_printable_array.o
+  CC      tests/bitmap.o
+  GEN     pmu-events/arch/arm64/arm/neoverse-v3/extra-metricgroups.json
+  CC      tests/perf-hooks.o
+  CC      util/llvm.o
+  CC      tests/unit_number__scnprintf.o
+  TEST    pmu-events/metric_test.log
+  CC      util/mmap.o
+  GEN     pmu-events/test-empty-pmu-events.c
+  CC      util/memswap.o
+  CC      tests/mem2node.o
+  CC      tests/maps.o
+  BISON   util/parse-events-bison.c
+  CC      tests/time-utils-test.o
+  CC      util/print-events.o
+  CC      util/tracepoint.o
+  CC      tests/genelf.o
+  CC      tests/api-io.o
+  CC      util/perf_regs.o
+  CC      util/path.o
+  CC      tests/demangle-java-test.o
+  CC      util/print_binary.o
+  CC      tests/demangle-ocaml-test.o
+  CC      util/print_insn.o
+  CC      util/rlimit.o
+  CC      util/argv_split.o
+  CC      tests/demangle-rust-v0-test.o
+  CC      tests/pfm.o
+  CC      tests/parse-metric.o
+  CC      util/rbtree.o
+  CC      util/libstring.o
+  CC      util/bitmap.o
+  CC      tests/pe-file-parsing.o
+  CC      tests/expand-cgroup.o
+  CC      util/hweight.o
+  CC      util/smt.o
+  TEST    pmu-events/empty-pmu-events.log
+  CC      util/strbuf.o
+  GEN     pmu-events/pmu-events.c
+  CC      util/string.o
+  CC      tests/perf-time-to-tsc.o
+  CC      util/strlist.o
+  CC      tests/dlfilter-test.o
+  CC      tests/sigtrap.o
+  CC      tests/event_groups.o
+  CC      util/strfilter.o
+  CC      tests/symbols.o
+  CC      tests/util.o
+  CC      tests/hwmon_pmu.o
+  CC      util/top.o
+  CC      tests/tool_pmu.o
+  CC      util/usage.o
+  CC      tests/subcmd-help.o
+  CC      util/dso.o
+  CC      tests/kallsyms-split.o
+  CC      tests/dwarf-unwind.o
+  CC      util/dsos.o
+  CC      tests/workloads/noploop.o
+  CC      util/symbol.o
+  CC      util/symbol_fprintf.o
+  CC      util/map_symbol.o
+  CC      util/color.o
+  CC      util/color_config.o
+  CC      util/metricgroup.o
+  CC      tests/workloads/thloop.o
+  CC      util/header.o
+  CC      util/callchain.o
+  CC      tests/workloads/leafloop.o
+  CC      util/values.o
+  CC      util/debug.o
+  CC      tests/workloads/sqrtloop.o
+  CC      tests/workloads/brstack.o
+  CC      tests/workloads/datasym.o
+  CC      util/fncache.o
+  CC      util/machine.o
+  CC      tests/workloads/landlock.o
+  CC      tests/workloads/traploop.o
+  CC      tests/workloads/inlineloop.o
+  CC      util/map.o
+  CC      util/maps.o
+  CC      util/pstack.o
+  CC      util/session.o
+  CC      util/tool.o
+  CC      util/sample.o
+  CC      util/sample-raw.o
+  CC      util/s390-sample-raw.o
+  CC      util/amd-sample-raw.o
+  CC      util/ordered-events.o
+  CC      util/namespaces.o
+  CC      util/comm.o
+  CC      pmu-events/pmu-events.o
+  CC      util/thread.o
+  LD      tests/workloads/perf-test-in.o
+  CC      util/threads.o
+  CC      util/thread_map.o
+  LD      tests/perf-test-in.o
+  BISON   util/pmu-bison.c
+  CC      util/parse-events-bison.o
+  LD      perf-test-in.o
+  AR      libperf-test.a
+  CC      util/pmus.o
+  LD      perf-in.o
+  CC      util/drm_pmu.o
+  CC      util/hwmon_pmu.o
+  CC      util/tool_pmu.o
+  CC      util/tp_pmu.o
+  CC      util/svghelper.o
+  CC      util/trace-event-info.o
+  CC      util/trace-event-scripting.o
+  CC      util/sort.o
+  CC      util/hist.o
+  CC      util/util.o
+  CC      util/cpumap.o
+  CC      util/affinity.o
+  CC      util/cputopo.o
+  CC      util/cgroup.o
+  LD      pmu-events/pmu-events-in.o
+  CC      util/target.o
+  CC      util/rblist.o
+  CC      util/intlist.o
+  CC      util/vdso.o
+  CC      util/counts.o
+  CC      util/stat.o
+  CC      util/stat-shadow.o
+  CC      util/stat-display.o
+  AR      libpmu-events.a
+  CC      util/perf_api_probe.o
+  CC      util/record.o
+  CC      util/srcline.o
+  CC      util/srccode.o
+  CC      util/synthetic-events.o
+  CC      util/data.o
+  CC      util/tsc.o
+  CC      util/cloexec.o
+  CC      util/call-path.o
+  CC      util/rwsem.o
+  CC      util/thread-stack.o
+  CC      util/spark.o
+  CC      util/topdown.o
+  CC      util/iostat.o
+  CC      util/stream.o
+  CC      util/lock-contention.o
+  CC      util/auxtrace.o
+  CC      util/intel-pt.o
+  CC      util/intel-bts.o
+  CC      util/arm-spe.o
+  CC      util/hisi-ptt.o
+  CC      util/s390-cpumsf.o
+  CC      util/powerpc-vpadtl.o
+  CC      util/cs-etm-base.o
+  CC      util/parse-branch-options.o
+  CC      util/dump-insn.o
+  CC      util/parse-regs-options.o
+  CC      util/parse-sublevel-options.o
+  CC      util/term.o
+  CC      util/help-unknown-cmd.o
+  CC      util/dlfilter.o
+  CC      util/mem-events.o
+  CC      util/mem-info.o
+  CC      util/vsprintf.o
+  CC      util/units.o
+  CC      util/time-utils.o
+  BISON   util/expr-bison.c
+  CC      util/branch.o
+  CC      util/mem2node.o
+  CC      util/clockid.o
+  CC      util/list_sort.o
+  CC      util/mutex.o
+  CC      util/sharded_mutex.o
+  CC      util/intel-tpebs.o
+  CC      util/bpf_map.o
+  CC      util/symbol-elf.o
+  CC      util/probe-file.o
+  CC      util/probe-event.o
+  CC      util/probe-finder.o
+  CC      util/dwarf-aux.o
+  CC      util/dwarf-regs.o
+  CC      util/debuginfo.o
+  CC      util/annotate-data.o
+  CC      util/libdw.o
+  CC      util/unwind-libdw.o
+  CC      util/data-convert-json.o
+  CC      util/zlib.o
+  CC      util/zstd.o
+  CC      util/cap.o
+  CXX     util/demangle-cxx.o
+  CC      util/demangle-ocaml.o
+  CC      util/demangle-java.o
+  CC      util/demangle-rust-v0.o
+  CC      util/jitdump.o
+  CC      util/genelf.o
+  CC      util/genelf_debug.o
+  CC      util/perf-hooks.o
+  CC      util/bpf-event.o
+  CC      util/bpf-utils.o
+  FLEX    util/parse-events-flex.c
+  FLEX    util/pmu-flex.c
+  CC      util/pmu-bison.o
+  FLEX    util/expr-flex.c
+  CC      util/expr-bison.o
+  CC      util/parse-events.o
+  CC      util/parse-events-flex.o
+  CC      util/pmu.o
+  CC      util/pmu-flex.o
+  CC      util/expr-flex.o
+  CC      util/expr.o
+  LD      util/perf-util-in.o
+  LD      perf-util-in.o
+  AR      libperf-util.a
+  LINK    perf
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: warning: libgcc_s.so.1, needed by /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so, not found (try using -rpath or -rpath-link)
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__floatunditf@GCC_4.2.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__subtf3@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__udivti3@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_Resume@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_Resume_or_Rethrow@GCC_3.3'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_DeleteException@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_GetRegionStart@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__unordtf2@GCC_4.5.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__getf2@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__addtf3@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_SetGR@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_GetIPInfo@GCC_4.2.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__letf2@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__fixunstfdi@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_SetIP@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_RaiseException@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__multf3@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__eqtf2@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_GetLanguageSpecificData@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__lttf2@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `__umodti3@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_GetTextRelBase@GCC_3.0'
+/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/aarch64-rocknix-linux-gnu/bin/ld.bfd: /home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/toolchain/lib/gcc/aarch64-rocknix-linux-gnu/15.2.0/../../../../aarch64-rocknix-linux-gnu/lib/../lib64/libstdc++.so: undefined reference to `_Unwind_GetDataRelBase@GCC_3.0'
+collect2: error: ld returned 1 exit status
+make[4]: *** [Makefile.perf:803: perf] Error 1
+make[3]: *** [Makefile.perf:289: sub-make] Error 2
+make[2]: *** [Makefile:76: all] Error 2
+make[2]: Leaving directory '/home/arnau/rocknix-airplay/build.ROCKNIX-RK3566.aarch64/build/linux-7.0.2/tools/perf'
+[1;31mFAILURE: scripts/build linux:target during make_target (package.mk)[0m
+*********** FAILED COMMAND ***********
+( cd tools/perf; case "${TARGET_ARCH}" in 
+    x86_64 | i*86)
+        PERF_BUILD_ARGS="ARCH=x86"
     ;;
-  x11)
-    PLATFORM="-x11-gbm"
+    aarch64)
+        PERF_BUILD_ARGS="ARCH=arm64"
     ;;
-  *)
-    PLATFORM="-gbm"
+    *)
+        PERF_BUILD_ARGS="ARCH=${TARGET_ARCH}"
     ;;
-esac
-
-# new repo base from jeffycn mirror
-case "${DEVICE}" in
-  RK3326|RK3566|RK3576)
-    PKG_SITE="https://github.com/JeffyCN/mirrors"
-    PKG_SHA256="54b8af924f582f7da7e120fbad4812a502cc7cc67f6d6ab061377cb403f3eb2d"
-    PKG_VERSION="4233031d818e97a19e8a9cdbbd5c15795ededd93"
-    # zip format makes extract very fast (<1s). tgz takes 20 seconds to scan the whole file
-    PKG_URL="${PKG_SITE}/archive/${PKG_VERSION}.zip"
-    PKG_DEPENDS_TARGET+=" mesa vulkan-tools vulkan-headers vulkan-wsi-layer"
-    DRIVER_VERSION="g29p1"
-    PLATFORM=""
-    ZIPDIRNAME="mirrors"
-    PKG_PATCH_DIRS+=" next"
-    OPTS=" -Dwrappers=true "
-  ;;
-  *)
-    OPTS=" -Dwrappers=enabled "
-    ZIPDIRNAME="libmali"
-  ;;
-esac
-
-
-PKG_MESON_OPTS_TARGET+=" -Darch=${ARCH} -Dgpu=${MALI_FAMILY} -Dversion=${DRIVER_VERSION} -Dplatform=${PLATFORM} \
-                       -Dkhr-header=false -Dvendor-package=true -Dhooks=true ${OPTS}"
-
-
-unpack() {
-  mkdir -p "${PKG_BUILD}"
-  cd "${PKG_BUILD}"
-  pwd
-  # Extract only what is needed
-  LIBNAME="libmali-${MALI_FAMILY}-${DRIVER_VERSION}${PLATFORM}.so"
-  unzip -q "${SOURCES}/${PKG_NAME}/${PKG_SOURCE_NAME}" "*/hook/*" "*/include/*" "*/scripts/*" "*/meson*" "*/data/*" "*/${LIBNAME}" \
-        "*/END_USER_LICENCE_AGREEMENT.txt"
-  mv ${ZIPDIRNAME}*/* .
-  rmdir ${ZIPDIRNAME}-*
-  if [ "${MALI_FAMILY}" = "meson" ]; then
-    mv data/vulkan/mali_meson.json.in data/vulkan/mali.json.in
-  fi
-  ln -s lib optimize_3
-}
-
-post_makeinstall_target() {
-  rm -rf "${SYSROOT_PREFIX}/usr/include"   # all needed headers are installed by glvnd, mesa and wayland
-  rm -rf "${INSTALL}/etc/ld.so.conf.d" "${SYSROOT_PREFIX}/etc/ld.so.conf.d"  # upstream installs ld.so config and we don't need it
-
-  mkdir -p "${INSTALL}/usr/share/licenses/libmali"
-  cp "${PKG_BUILD}/END_USER_LICENCE_AGREEMENT.txt" "${INSTALL}/usr/share/licenses/libmali/"
-
-  # IDK how libs in ubuntu package get these dependencies. Need to specify them manually here.
-  for lib in "${INSTALL}"/usr/lib*/mali/lib*.so.*; do
-    patchelf --add-needed libmali-hook.so.1 "${lib}"
-  done
-  patchelf --add-needed libmali.so.1 "${INSTALL}"/usr/lib*/libmali-hook.so.1
-
-  # x11 lib needed for some applications on the RK3588
-  if [ ${DEVICE} = "RK3588" ] && [ ${TARGET_ARCH} = "aarch64" ]; then
-      curl -Lo ${INSTALL}/usr/lib/libmali-${MALI_FAMILY}-${DRIVER_VERSION}-x11-gbm.so ${PKG_SITE}/raw/master/lib/aarch64-linux-gnu/libmali-${MALI_FAMILY}-${DRIVER_VERSION}-x11-gbm.so
-  fi
-  # S922X - mali vulkan libs need moving
-  if [[ "${DEVICE}" =~ S922X|RK3326|RK3566|RK3576 ]] && [ "${ARCH}" = "aarch64" ]; then
-    mv "${INSTALL}"/usr/lib/mali/libMaliVulkan.* "${INSTALL}"/usr/lib/
-  fi
-  if [[ "${DEVICE}" =~ RK3326|RK3566|RK3576 ]] && [ "${ARCH}" = "arm" ]; then
-    mv "${INSTALL}"/usr/lib32/mali/libMaliVulkan.* "${INSTALL}"/usr/lib32/
-  fi
-
-}
+esac; [[ "${DEVICE}" != "RK3588" ]] && export BUILD_BPF_SKEL=0; WERROR=0 NO_LIBPERL=1 NO_LIBPYTHON=1 NO_SLANG=1 NO_GTK2=1 NO_LIBNUMA=1 NO_LIBAUDIT=1 NO_LIBTRACEEVENT=1 NO_LZMA=1 NO_SDT=1 NO_LIBDEBUGINFOD=1 NO_JVMTI=1 NO_LIBLLVM=1 NO_LIBPFM4=1 NO_LIBBABELTRACE=1 NO_CAPSTONE=1 CROSS_COMPILE="${TARGET_PREFIX}" JOBS="${CONCURRENCY_MAKE_LEVEL}" make ${PERF_BUILD_ARGS}; mkdir -p ${INSTALL}/usr/bin; cp perf ${INSTALL}/usr/bin )
+**************************************
+*********** FAILED COMMAND ***********
+${SCRIPTS}/build "${1}" "${PARENT_PKG}"
+**************************************
+[1;31mFAILURE: scripts/install linux:target has failed![0m
