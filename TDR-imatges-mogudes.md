@@ -66,67 +66,71 @@ Per entendre com funciona un altaveu, primer s’ha d'entendre el principi fonam
 
 ### **_El so:_** 
 
-El so és una ona, és a dir, una pertorbació o variació que viatja a través d’un medi. Per exemple, explicat per Dan Russell (htps://www.acs.psu.edu/drussell/Demos/wavest - <u>intro/waves-intro.html), una ona és com la gent d’un partit formant una “ona”. Un grup</u> de gent s’aixeca i s’asseu, el grup del costat repeteix la mateixa acció, així generant una ona per tot l’estadi. Tenim una variació, la gent aixecant-se, que va desplaçant-se per tot l’estadi. Els individus no es mouen, però _l’onada_ és transportada per tot l’estadi. 
+El so és una ona, és a dir, una pertorbació o variació que viatja a través d’un medi. Per exemple, explicat per Dan Russell (htps://www.acs.psu.edu/drussell/Demos/wavest - <u>intro/waves-intro.html), una ona és com la gent d’un partit formant una “ona”. Un grup</u> de gent s’aixeca i s’asseu, el grup del costat repeteix la mateixa acció, generant així una ona que es propaga per tot l’estadi. Tenim una variació, la gent aixecant-se, que es va desplaçant per tot l’estadi. Els individus no es mouen, però l’onada és transportada per tot l’estadi. 
 
-El so és el mateix, un canvi de pressió (vibració) que travessa per un medi qualsevol (sòlid, líquid, gasós, fins i tot plasma). Quan parlem amb algú, les nostres cordes vocals generen una vibració i aquesta es desplaça per l’aire fins a arribar a l’orella de l'oient, on és processada. 
+En el cas del so, aquesta pertorbació es manifesta com una variació de pressió que es propaga a través d’un medi material, que pot ser sòlid, líquid o gasós. Quan parlem amb algú, les nostres cordes vocals generen una vibració que produeix variacions de pressió en l’aire. Aquestes variacions es propaguen fins a arribar a l’orella de l’oient, on són detectades i transformades en senyals nerviosos. 
 
-Pot caracteritzar-se pels següents punts: 
+### **_Característiques del so_** 
 
-- La freqüència: 
+Una ona sonora es pot descriure mitjançant diferents propietats que permeten determinar com es comporta físicament i com la percebem. Les principals són la freqüència, l'amplitud, la intensitat, la longitud d'ona, la fase i la velocitat de propagació. 
 
-La freqüència és el nombre de vegades que ocorre un esdeveniment en una certa unitat de temps. En el cas del so, dicta quin to té aquest. 
+#### **_La freqüència_** 
 
-- L'amplitud: 
-
-L’amplitud d’una ona sonora representa la magnitud de la variació de pressió respecte al punt d’equilibri (el “mig”). En altres paraules, indica com de gran és la vibració del medi. Es tracta d’una propietat purament física de l’ona, que descriu la seva forma localment i no com aquesta energia es distribueix en 
-
-- La intensitat: 
+La freqüència indica quantes vegades es repeteix un cicle de l'ona en un segon i s'expressa en hertzs (Hz). Per exemple, una freqüència de 100 Hz significa que es produeixen 100 cicles cada segon. En el cas del so, la freqüència està relacionada amb l'altura percebuda: les freqüències baixes corresponen a sons greus, mentre que les freqüències altes corresponen a sons aguts. 
 
 3 
 
-La intensitat sonora descriu la quantitat d’energia que una ona transporta a través d’una superfície en un determinat temps. Es mesura en watts per metre quadrat (W/m²) i permet quantificar l’energia del so en un punt concret. A diferència de l’amplitud, la intensitat té en compte la propagació de l’ona i la manera com aquesta energia es distribueix en l’espai. Per aquest motiu, està més directament relacionada amb la percepció del volum del so. 
+#### **_L'amplitud_** 
 
-- La longitud d’ona: 
+L'amplitud indica la magnitud de la variació de l'ona respecte del seu punt d'equilibri. En una ona sonora, aquesta variació correspon als canvis de pressió que es produeixen en el medi. Una amplitud més gran implica una variació de pressió més gran i, en general, un so amb un nivell més elevat. L'amplitud és, per tant, una propietat física de l'ona i no s'ha de confondre directament amb la intensitat sonora. 
 
-La longitud d’ona és la distància entre dos punts iguals consecutius d’una ona, com per exemple dos màxims. En el cas del so, indica “com de llarga” és l’ona en l’espai. Està relacionada amb la freqüència: les freqüències baixes tenen longituds d’ona grans, mentre que les freqüències altes tenen longituds d’ona més petites. 
+#### **_La intensitat_** 
 
-- La fase: 
+La intensitat sonora indica quanta potència acústica travessa una determinada superfície. Es mesura en watts per metre quadrat (W/m²) i permet descriure com es distribueix l'energia transportada per l'ona. Està relacionada amb l'amplitud de l'ona: per a unes mateixes condicions de propagació, una amplitud de pressió més gran implica una intensitat més elevada. 
 
-La fase indica en quin punt del cicle es troba una ona en un moment determinat. És especialment important quan hi ha més d’una ona interactuant. 
+#### **_La longitud d'ona_** 
 
-Si dues ones estan en fase, les seves amplituds se sumen (interferència constructiva). Si estan desfasades, poden cancel·lar-se parcialment o totalment (interferència destructiva). Aquest fenomen és molt rellevant en el disseny d’altaveus, especialment en sistemes amb múltiples drivers (l’altaveu individual). 
+La longitud d'ona és la distància entre dos punts consecutius de l'ona que es troben en el mateix estat de vibració, com ara dues compressions consecutives. Es representa amb la lletra grega λ (lambda) i s'expressa en metres. 
 
-- La intensitat sonora: 
+La longitud d'ona està relacionada amb la freqüència i la velocitat de propagació mitjançant la següent expressió: 
 
-   - La intensitat sonora representa la quantitat d’energia que travessa una superfície. 
 
-- La velocitat de propagació: 
 
-El so, depenent del medi al qual estigui, viatja a diferents velocitats. Per exemple, a l’aire és de 331,3 m/s quan la temperatura és de 0 °C, la pressió és de 101,325 Pa (1 atm) i la humitat relativa és del 0%. 
+on λ és la longitud d'ona, c és la velocitat de propagació i f és la freqüència. Per tant, si la velocitat es manté constant, una freqüència més alta correspon a una longitud d'ona més curta, mentre que una freqüència més baixa correspon a una longitud d'ona més llarga. 
+
+#### **_La fase_** 
+
+La fase indica en quin punt del seu cicle es troba una ona respecte d'un punt de referència. Es pot expressar en graus, on un cicle complet correspon a 360°. Dues ones de la mateixa 
 
 4 
 
-El concepte més important que haurem d'entendre sobre el so en relació amb els altaveus és la **_freqüència_** , el seu **_rang_** i la seva **_resposta_** . 
+freqüència poden estar en fase quan els seus cicles coincideixen, o desfasades quan una està avançada o retardada respecte de l'altra. 
 
-La **_freqüència_** és el nombre de vegades que ocorre un esdeveniment en una certa unitat de temps. En el cas del so, dicta quin to té aquest. 
+La fase és especialment important quan dues o més ones es combinen. Si les seves variacions coincideixen, poden reforçar-se entre elles, mentre que si es troben desfasades poden produir una reducció parcial o total del nivell resultant. Aquest fenomen d'interferència és especialment important en el funcionament dels altaveus amb diversos drivers. 
 
-Parlarem del **_rang de freqüències_** per concretar el conjunt de freqüències que es poden reproduir de manera efectiva. 
+#### **_La velocitat de propagació_** 
 
-Les freqüències que podem escoltar els humans van dels 20 Hz als 20 kHz i es categoritzen en: **baixes** (greus): 20 Hz – 250 Hz, **mitges** : 250 Hz – 4 kHz i **altes** (agudes): 4 kHz – 20. 
+La velocitat de propagació indica la rapidesa amb què l'ona es desplaça a través del medi. Aquesta velocitat depèn principalment del medi i de les seves propietats. En l'aire, per exemple, varia amb la temperatura i altres condicions ambientals; a una temperatura de 20 °C és d'aproximadament 343 m/s. La velocitat de propagació, la freqüència i la longitud d'ona estan relacionades mitjançant l'expressió anterior. 
 
-La **_resposta en freqüència_** representa la “qualitat” d’aquest so. El podrem analitzar mitjançant el **_gràfic de resposta en freqüència_** , que mostrarà la intensitat amb la qual es reprodueix cada so. Un altaveu idíl·lic reproduiria totes les freqüències a la mateixa intensitat, però això és físicament impossible. Addicionalment, es pot preferir un so no lineal. El món de l’àudio és molt subjectiu i cada persona pot preferir un so diferent.  Com a exemple, ja que l’orella se sent més estimulada per les baixes freqüències, la majoria de productes de so creats per als consumidors tenen les freqüències baixes augmentades en relació amb el que seria una reproducció “fidel”, així el consumidor creu que el dispositiu se sent “millor” (tot i que, objectivament parlant, no és així) i impulsen vendes. 
+#### **_El rang de freqüències audible_** 
 
-### **_Els altaveus i el seu funcionament:_** 
+L'oïda humana no pot percebre totes les freqüències. De manera aproximada, es considera que el rang audible se situa entre els 20 Hz i els 20 kHz, tot i que aquest límit varia segons la persona i pot disminuir amb l'edat. Dins d'aquest rang, les freqüències es poden dividir de manera aproximada en tres zones: baixes o greus, mitjanes i altes o agudes. 
 
-El primer altaveu fou creat el 1876 per Johann Philipp Reis<sup>1</sup> (tot i ser erròniament atribuït a Alexander Graham) i va ser utilitzat pel primer telèfon, però no va ser fins al 1877, amb Werner von Siemens que es va teoritzar el primer altaveu dinàmic<sup>2</sup> . A partir d’aquest, gent com Oliver Lodge i John Stroh van anar perfeccionant aquell invent i, fins avui dia, seguim utilitzant aquest i altres simples conceptes creats fa més d’un segle per escoltar música. Aquesta meravellosa tecnologia aconsegueix, mitjançant una membrana que es 
+En el context dels altaveus, aquesta distribució és especialment important, ja que diferents drivers estan dissenyats per reproduir diferents zones de l'espectre. Per aquest motiu, els sistemes que utilitzen diversos drivers han de repartir adequadament les freqüències entre aquests. 
 
-> 1 <u>The Forgotten Johann Philipp Reis</u> 
+#### **_La resposta en freqüència_** 
 
-> 2 <u>Loudspeaker History</u> 
+La resposta en freqüència descriu com varia el nivell de reproducció d'un altaveu segons la freqüència. Es pot representar mitjançant un gràfic on l'eix horitzontal correspon a la 
 
 5 
 
-mou, generar ones de pressió i, per tant, so. Un altaveu està compost per diverses peces, aquestes sent principalment: driver (l’altaveu, la peça mecànica individual), el “crossover” (si hi ha més d’un altaveu present), la capsa que l’engloba i, en el cas d’un altaveu actiu, l’amplificador. 
+freqüència i el vertical al nivell de pressió sonora. Una resposta idealment plana indicaria que totes les freqüències es reprodueixen al mateix nivell, tot i que en un sistema real sempre hi ha determinades variacions. 
+
+La resposta en freqüència és un dels paràmetres més importants per caracteritzar el comportament acústic d'un altaveu i serà analitzada amb més detall posteriorment, juntament amb la interpretació dels gràfics obtinguts durant les mesures. 
+
+### **_Els altaveus i el seu funcionament:_** 
+
+El primer altaveu fou creat el 1876 per Johann Philipp Reis<sup>1</sup> (tot i ser erròniament atribuït a Alexander Graham) i va ser utilitzat pel primer telèfon, però no va ser fins al 1877, amb Werner von Siemens que es va teoritzar el primer altaveu dinàmic<sup>2</sup> . A partir d’aquest, gent com Oliver Lodge i John Stroh van anar perfeccionant aquell invent i, fins avui dia, seguim utilitzant aquest i altres simples conceptes creats fa més d’un segle per escoltar música. Aquesta meravellosa tecnologia aconsegueix, mitjançant una membrana que es mou, generar ones de pressió i, per tant, so. Un altaveu està compost per diverses peces, aquestes sent principalment: driver (l’altaveu, la peça mecànica individual), el “crossover” (si hi ha més d’un altaveu present), la capsa que l’engloba i, en el cas d’un altaveu actiu, l’amplificador. 
 
 ### **_El driver (peça):_** 
 
@@ -134,7 +138,13 @@ En aquest treball s’anomenarà l’altaveu (peça individual, sense capsa) com
 
 El driver basa el seu funcionament en l’activació de l’aire per produir so, i requereix dos components. Una membrana que mou l’aire i algun component electrònic el qual mogui aquesta membrana. Tenen diferents propietats que marquen com són i determinen la seva qualitat de reproducció. 
 
-- **_I. Distorsió:_** 
+> 1 <u>The Forgotten Johann Philipp Reis</u> 
+
+> 2 <u>Loudspeaker History</u> 
+
+6 
+
+### **_I. Distorsió:_** 
 
 La distorsió és qualsevol alteració del senyal original durant el procés de reproducció. En un sistema ideal, el driver reproduiria exactament el senyal d’entrada, però en la pràctica això no és possible. 
 
@@ -146,15 +156,15 @@ Tot i que certa quantitat de distorsió és inevitable, en sistemes d’alta fid
 
 ## **_II. Sensibilitat:_** 
 
-6 
+La sensibilitat d’un driver indica el nivell de pressió sonora que és capaç de produir amb una determinada potència elèctrica. Normalment s’expressa en decibels (dB) a una distància d’un metre aplicant una potència determinada (sovint 1 watt). 
 
-La sensibilitat d’un driver indica com d’eficient és convertint potència elèctrica en so. Normalment s’expressa en decibels (dB) a una distància d’un metre aplicant una potència determinada (sovint 1 watt). 
+Un driver amb una sensibilitat alta produirà més nivell de pressió sonora amb la mateixa potència que un altre amb sensibilitat més baixa. Una diferència de 3 dB en el nivell de pressió sonora correspon aproximadament al doble d’intensitat acústica. 
 
-Un driver amb una sensibilitat alta produirà més volum amb la mateixa potència que un altre amb sensibilitat més baixa. Una diferència de 3 dB ja representa aproximadament el doble de potència sonora. 
-
-Això té implicacions pràctiques importants. Drivers poc sensibles requeriran amplificadors més potents per aconseguir el mateix nivell de volum, per això altaveus barats preferiran sensibilitats altes per a poder utilitzar amplificadors barats de baixa potència. 
+Això té implicacions pràctiques importants. Els drivers amb una sensibilitat més baixa necessiten més potència elèctrica per assolir el mateix nivell de pressió sonora que un driver més sensible. Per aquest motiu, la sensibilitat és un dels paràmetres que cal tenir en compte a l’hora de combinar un driver amb un amplificador. 
 
 ### **_III. Impedància:_** 
+
+7 
 
 La impedància és una propietat elèctrica que descriu la resistència que presenta un driver al pas del corrent altern. Es mesura en ohms (Ω) i és un factor clau a l’hora de combinar altaveus amb amplificadors. 
 
@@ -164,11 +174,11 @@ Per exemple, un altaveu etiquetat com a 8 Ω no té exactament aquest valor en t
 
 Si la impedància és massa baixa, l’amplificador pot haver de subministrar més corrent del que pot gestionar, provocant sobreescalfament o distorsió. Per contra, una impedància alta redueix la potència entregada. Per això, és important assegurar la compatibilitat entre ambdós components. 
 
-7 
-
 A més de la distorsió, la sensibilitat i la impedància, existeixen altres paràmetres que permeten descriure el comportament d’un driver, entre els quals destaquen els paràmetres Thiele-Small (T/S). Desenvolupats per A. Neville Thiele i Richard H. Small, constitueixen un model que permet descriure el comportament elèctric i mecànic d’un altaveu dinàmic, especialment a les freqüències baixes. Són molt útils en el disseny acústic perquè permeten estudiar com es comportarà un driver quan es combina amb una determinada caixa, sense haver de construir físicament totes les configuracions possibles. 
 
 Entre els principals paràmetres T/S trobem la freqüència de ressonància (Fs), el factor de qualitat mecànic (Qms), el factor de qualitat elèctric (Qes) i el factor de qualitat total (Qts). També són importants el volum d’aire equivalent (Vas), la resistència de la bobina (Re), la superfície efectiva del diafragma (Sd) i l’excursió lineal màxima (Xmax). 
+
+8 
 
 La Fs correspon a la freqüència natural de ressonància del conjunt mòbil del driver. Al voltant d’aquesta freqüència, la massa mòbil i la suspensió interactuen i produeixen un augment característic de la resposta d’impedància. Una Fs baixa pot indicar un major potencial per reproduir freqüències greus, però no determina per si sola fins a quina freqüència baixa podrà arribar el driver, ja que també hi intervenen la caixa acústica, el tipus de càrrega i la resta de paràmetres T/S. 
 
@@ -178,13 +188,15 @@ Els paràmetres Qms, Qes i Qts descriuen el grau d’amortiment del sistema al v
 
 El Vas representa el volum d’aire que tindria una compliància equivalent a la de la suspensió del driver. No correspon al volum de la caixa necessari, sinó que és una propietat del propi driver que, juntament amb Fs i Qts, ajuda a determinar quina càrrega acústica pot resultar adequada. 
 
-8 
-
 Altres paràmetres, com Sd i Xmax, permeten relacionar les característiques físiques del driver amb la quantitat d’aire que pot desplaçar. La Sd és la superfície efectiva del diafragma, mentre que Xmax representa l’excursió màxima aproximadament lineal. La combinació d’ambdós paràmetres és especialment rellevant a baixes freqüències, on per generar pressió sonora és necessari desplaçar una quantitat considerable d’aire. 
 
 Per tant, els paràmetres Thiele-Small no només serveixen per descriure el driver de manera individual, sinó que permeten predir la seva interacció amb una caixa acústica. 
 
-També podem categoritzar els drivers segons el rang de freqüències en què operen, ja que és físicament impossible tenir les mateixes característiques per reproduir tan freqüències altes com baixes en el mateix altaveu. Com hem vist abans, hi ha tres rangs principals i hi ha drivers especialitzats en cada un d’aquests rangs. 
+També podem categoritzar els drivers segons el rang de freqüències en què operen, ja que és físicament impossible tenir les mateixes característiques per reproduir tan 
+
+9 
+
+freqüències altes com baixes en el mateix altaveu. Com hem vist abans, hi ha tres rangs principals i hi ha drivers especialitzats en cada un d’aquests rangs. 
 
 ### **_I. Subwoofer:_** 
 
@@ -196,15 +208,13 @@ Els woofers cobreixen la part baixa i part de la gamma mitjana. Són una mena de
 
 ### **_III. Midrange-woofer:_** 
 
-Els midrange o driver de mitjos estan optimitzats per a la zona on es troba la major part de la informació musical i la veu humana (aproximadament entre 250 Hz i 4 kHz). 
-
-9 
-
-Aquí és on la fidelitat és més crítica, ja que l’oïda humana és especialment sensible en aquest rang. 
+Els midrange o driver de mitjos estan optimitzats per a la zona on es troba la major part de la informació musical i la veu humana (aproximadament entre 250 Hz i 4 kHz). Aquí és on la fidelitat és més crítica, ja que l’oïda humana és especialment sensible en aquest rang. 
 
 ### **_IV. Tweeters:_** 
 
 Finalment, els tweeters són els encarregats de reproduir les freqüències altes. Com que aquestes freqüències tenen longituds d’ona molt petites, es necessita una membrana lleugera i ràpida. Per això, els tweeters acostumen a ser petits i fabricats amb materials molt lleugers. Existeixen diferents dissenys com el dome tweeter, el ribbon tweeter (semblant al planar que veurem a continuació) i els altaveus de “ _banya_ ”, que s’assemblen a una trompeta. 
+
+10 
 
 A més, existeixen diferents dissenys de driver i els mateixos s’utilitzen també als auriculars. Entrarem en el detall en el funcionament de diversos models. La majoria de noms són anglesos, es farà el millor intent a traduir els noms. 
 
@@ -214,36 +224,34 @@ Sent el més simple i utilitzat en altaveus. Funciona amb una bobina que, en con
 
 
 
-<!-- Start of picture text -->
-N .<br><!-- End of picture text -->
-
 **Il·lustració  1 - Driver dinàmic** 
 
-El sistema motor s’encarrega de posar en moviment el **Driver dinàmic** diafragma. Està compost d’un imant (“magnet”), la bobina de veu (“Voice coil”) i l’encapsulament que sostenen i dirigeixen el camp magnètic de l’imant (“pole piece” i “back plate”). La il·lustració 1 és la secció d’un driver dinàmic i mostra la col·locació normal d’aquests components. Un corrent altern (que la seva ona és semblant a la del so) és aplicat a la bobina i, depenent del corrent, aquesta és separada o atreta 
+El sistema motor s’encarrega de posar en moviment el **Driver dinàmic** diafragma. Està compost d’un imant (“magnet”), la bobina de veu (“Voice coil”) i l’encapsulament que sostenen i dirigeixen el camp magnètic de l’imant (“pole piece” i “back plate”). La il·lustració 1 és la secció d’un driver dinàmic i mostra la col·locació normal d’aquests components. Un corrent altern (que la seva ona és semblant a la del so) és aplicat a la bobina i, depenent del corrent, aquesta és separada o atreta cap a l’imant. Diversos factors poden afectar el funcionament d’aquest, com, per exemple: la longitud de la bobina, la distància entre les parets i la bobina... A més, hem de controlar correctament el camp magnètic, per això s'utilitzen diferents formes geomètriques en l'encapsulament de l’imant. 
 
-10 
-
-cap a l’imant. Diversos factors poden afectar el funcionament d’aquest, com, per exemple: la longitud de la bobina, la distància entre les parets i la bobina... A més, hem de controlar correctament el camp magnètic, per això s'utilitzen diferents formes geomètriques en l'encapsulament de l’imant. 
-
-El diafragma és la membrana cònica que, connectada a la bobina, mou l’aire i genera el so. Les seves propietats físiques influeixen molt en el resultat final. Idealment hauria de ser molt rígida, molt lleugera i capaç d’amortir bé les seves pròpies vibracions, però en la pràctica és impossible tenir les tres coses alhora, per això cada material representa un compromís diferent. El paper és el més tradicional: és econòmic, està ben amortit i dona un so càlid i natural, tot i que és sensible a la humitat. Els metalls com l’alumini o el titani, que són rígids i lleugers, ofereixen un so net i detallat, però poden sonar malament quan entren en ressonància (vibren de manera incontrolada). El Kevlar i la fibra de carboni combinen rigidesa i bon amortiment, reduint les vibracions no desitjades, i s’utilitzen molt en drivers de gamma mitjana-alta. En els tweeters són habituals la seda, que dona un so suau i refinat, i els metalls, que són més precisos però poden sonar més estridents. L’elecció del material del diafragma és una de les decisions més importants en el disseny d’un driver dinàmic. 
-
-Per últim, tenim el sistema de suspensió, que s’encarrega de sostenir el diafragma mentre li permet moure's lliurement per tal de produir el so. Està format per una vora de goma (surround) i un “centrador” (Spider). La tasca d’aquest dos és principalment mantenir la membrana centrada, a 
-
-part, redueixen les vibracions a l'extrem d’aquesta. 
-
-### **_II. Driver magnètic “planar”_** 
-
-Aquesta mena de driver (il·lustració 2) utilitza menys components que el driver dinàmic tradicional i es basa en un principi diferent de 
-
-**Il·lustració 2 - Driver planar** 
+El diafragma és la membrana cònica que, connectada a la bobina, mou l’aire i genera el so. Les seves propietats físiques influeixen molt en el resultat final. Idealment hauria de ser molt rígida, molt lleugera i capaç d’amortir bé les seves pròpies vibracions, però en la pràctica és impossible tenir les tres coses alhora, per això cada material representa un compromís diferent. El paper és el més tradicional: és econòmic, està ben amortit i dona un so càlid i natural, tot i que és sensible a la 
 
 11 
 
-funcionament. En lloc d’una bobina concentrada en un punt, utilitza una membrana plana molt fina sobre la qual hi ha distribuït un conductor elèctric. 
+humitat. Els metalls com l’alumini o el titani, que són rígids i lleugers, ofereixen un so net i detallat, però poden sonar malament quan entren en ressonància (vibren de manera incontrolada). El Kevlar i la fibra de carboni combinen rigidesa i bon amortiment, reduint les vibracions no desitjades, i s’utilitzen molt en drivers de gamma mitjana-alta. En els tweeters són habituals la seda, que dona un so suau i refinat, i els metalls, que són més precisos però poden sonar més estridents. L’elecció del material del diafragma és una de les decisions més importants en el disseny d’un driver dinàmic. 
 
-Aquesta membrana es col·loca entre dos conjunts d’imants. Quan el corrent elèctric passa pel conductor, es genera un camp magnètic que interactua amb el dels imants, provocant el moviment uniforme de tota la superfície de la membrana. 
+Per últim, tenim el sistema de suspensió, que s’encarrega de sostenir el diafragma mentre li permet moure's lliurement per tal de produir el so. Està format per una vora de goma (surround) i un “centrador” (Spider). La tasca d’aquest dos és principalment mantenir la membrana centrada, a part, redueixen les vibracions a l'extrem d’aquesta. 
 
-Aquest sistema té diversos avantatges. En primer lloc, la força s’aplica de manera més homogènia, fet que redueix distorsions. A més, en ser una membrana molt lleugera, la resposta en freqüència acostuma a ser més precisa, especialment en les freqüències mitjanes i altes. 
+### **_II. Driver magnètic “planar”_** 
+
+Aquesta mena de driver (il·lustració 2) utilitza menys components que el driver dinàmic tradicional i es basa en un principi diferent de funcionament. En lloc d’una bobina concentrada en un punt, utilitza una membrana plana molt fina sobre la qual hi ha distribuït un conductor elèctric. 
+
+
+
+<!-- Start of picture text -->
+s<br>=<br>== SsSs<br>=<br><!-- End of picture text -->
+
+Aquesta membrana es col·loca entre dos conjunts **Il·lustració 2 - Driver planar** d’imants. Quan el corrent elèctric passa pel conductor, es genera un camp magnètic que interactua amb el dels imants, provocant el moviment uniforme de tota la superfície de la membrana. 
+
+Aquest sistema té diversos avantatges. En primer lloc, la força s’aplica de manera més homogènia, fet que redueix distorsions. A més, en ser una membrana molt 
+
+12 
+
+lleugera, la resposta en freqüència acostuma a ser més precisa, especialment en les freqüències mitjanes i altes. 
 
 Tot i això, també presenten inconvenients, com una menor eficiència i la necessitat de més potència per funcionar correctament. 
 
@@ -263,21 +271,24 @@ El seu principal avantatge és que ofereixen uns aguts molt detallats, clars i �
 
 Tanmateix, són fràgils, tenen una sensibilitat baixa (necessiten més potència) i són cars. Normalment només s’utilitzen com a tweeters als altaveus per reproduir les freqüències altes. 
 
-12 
-
 ### **_IV. Driver electroestàtic:_** 
 
 Alabats per la seva precisió, aquest tipus de driver (il·lustració 4) canvia totalment el sistema que utilitza per a desplaçar l’aire. En lloc d’utilitzar camps magnètics, funciona mitjançant forces electroestàtiques. 
 
 
 
+<!-- Start of picture text -->
+— . ‘ im ees<br>Oy te<br>» \. y<br><!-- End of picture text -->
+
 **Il·lustració  4 - Driver electroestàtic** 
 
-Consisteix en una membrana extremadament **Il·lustració  4 - Driver electroestàtic** fina situada entre dues plaques metàl·liques anomenades, en anglès, “stators”. Aquesta membrana es carrega elèctricament i, quan s’aplica un senyal d’àudio a les plaques, es genera un camp electroestàtic variable que atrau o repel·leix la membrana. 
+13 
+
+Consisteix en una membrana extremadament fina situada entre dues plaques metàl·liques anomenades, en anglès, “stators”. Aquesta membrana es carrega elèctricament i, quan s’aplica un senyal d’àudio a les plaques, es genera un camp electroestàtic variable que atrau o repel·leix la membrana. 
 
 Això provoca el seu moviment i, en conseqüència, la generació d’ones sonores. Com que la massa de la membrana és molt reduïda, aquests altaveus ofereixen una resposta molt ràpida i una distorsió mínima. 
 
-No obstant això, tenen limitacions importants: requereixen altes tensions per funcionar, són més difícils de fabricar i, generalment, tenen dificultats per reproduir freqüències molt baixes. Com els planars, acostumen a utilitzar-se en auriculars. 
+No obstant això, tenen limitacions importants: requereixen altes tensions per funcionar, són més difícils de fabricar i, generalment, tenen dificultats per reproduir freqüències molt baixes. Com els planars, acostumen a utilitzar-se en auriculars. |__| 
 
 Els auriculars més cars del món, els Sennheiser HE-1 (il·lustració 5), amb un preu de 89.990,00 € (al temps d’escriptura) utilitza aquesta mena de driver. 
 
@@ -287,11 +298,11 @@ Els auriculars més cars del món, els Sennheiser HE-1 (il·lustració 5), amb u
 
 Perquè un altaveu pugui reproduir so, necessita un senyal elèctric que representi aquest so. Aquest senyal és, essencialment, una còpia elèctrica de l’ona sonora original. 
 
-13 
-
 Quan es grava o es genera un so digitalment, aquest es transforma en un senyal elèctric que varia en el temps. Aquestes variacions de tensió corresponen directament a les variacions de pressió que formarien el so en l’aire. 
 
 L’altaveu rep aquest senyal i el converteix de nou en moviment mecànic mitjançant els sistemes descrits anteriorment. Per tant, la qualitat del senyal repercuteix directament en la fidelitat de reproducció final. Qualsevol interferència, distorsió o pèrdua d’informació en el senyal afectarà directament el resultat final. 
+
+14 
 
 En el món modern, la majoria de senyals d’àudio són digitals. Un fitxer d’àudio, ja sigui un MP3, un FLAC o un WAV, emmagatzema el so com una seqüència de números que descriuen l’ona sonora de forma discreta en el temps. Per poder reproduir aquest so, cal convertir-lo a senyal analògica, és a dir, a una variació de tensió continua. Aquesta és la funció del convertidor digital-analògic, més conegut com a DAC (de l’anglès Digital-toAnalogue Converter). 
 
@@ -301,29 +312,27 @@ La cadena de so, doncs, segueix un camí bastant definit: el senyal digital surt
 
 La majoria d’altaveus d’alta qualitat disposen de més d’un driver, ja que és pràcticament impossible que un sol driver reprodueixi tot el rang de freqüències de manera òptima. Per aquest motiu, es divideix el senyal en diferents bandes de freqüència, cadascuna dirigida a un driver específic. Aquesta funció la realitza el “crossover”. 
 
-El crossover és un sistema de filtratge que agafa el senyal d’entrada i el separa en diferents parts. Aquest filtratge es realitza mitjançant components electrònics bàsics. Els 
-
-14 
-
-capacitadors permeten el pas de freqüències altes però bloquegen les baixes, mentre que els inductors fan el contrari. Un cop separat el senyal, s’utilitzen aquest component per a atenuar el so que el driver no pot reproduir. D’aquesta manera, cada altaveu només treballa en el rang per al qual ha estat dissenyat, millorant la qualitat del so i reduint distorsions. Per últim, els resistors, s’utilitzen per ajustar el nivell (volum) de cada driver i equilibrar el conjunt. 
+El crossover és un sistema de filtratge que agafa el senyal d’entrada i el separa en diferents parts. Aquest filtratge es realitza mitjançant components electrònics bàsics. Els capacitadors permeten el pas de freqüències altes però bloquegen les baixes, mentre que els inductors fan el contrari. Un cop separat el senyal, s’utilitzen aquest component per a atenuar el so que el driver no pot reproduir. D’aquesta manera, cada altaveu només treballa en el rang per al qual ha estat dissenyat, millorant la qualitat del so i reduint distorsions. Per últim, els resistors, s’utilitzen per ajustar el nivell (volum) de cada driver i equilibrar el conjunt. 
 
 Així el crossover envia les freqüències baixes al woofer, les mitjanes al midrange i les altes al tweeter. 
 
+15 
+
 El filtratge no és instantani: cap component talla una freqüència de cop, sinó que atenua progressivament el senyal a mesura que ens allunyem del punt de tall. Aquesta progressió es mesura en dB per octava (una octava és cada vegada que la freqüència es duplica o es divideix per dos). Com més component de filtratge s'acumulen en cascada (a més "ordre" del filtre), més pronunciada és aquesta caiguda: un filtre de primer ordre “cau” uns 6dB/octava, un de segon ordre uns 12dB/octava, i així successivament. Un pendent més pronunciat separa millor els drivers adjacents (menys superposició de freqüències), però també augmenta considerablement la complexitat i dificulta l’alineació de la fase. a eS 
 
-La fase descriu la posició temporal d'una ona sonora en el seu cicle. Quan dos altaveus reprodueixen simultàniament la mateixa freqüència (com passa en la zona de creuament del filtre), és imprescindible que les seves ones estiguin alineades en el temps. Tanmateix, els crossovers modifiquen 
+La fase descriu la posició temporal d'una ona sonora en el seu cicle. Quan dos altaveus reprodueixen simultàniament la mateixa freqüència (com passa en la zona de creuament del filtre), és imprescindible que les seves ones estiguin alineades 
+
+en el temps. Tanmateix, els crossovers modifiquen 
 
 **Il·lustració  6 - Distorisió de fases** 
 
-aquesta relació temporal introduint un desfasament (il·lustració 6). Si les ones arriben desfasades —és a dir, si el pic d'una ona coincideix amb la vall de l'altra—, es produeixen interferències: les freqüències es poden cancel·lar parcialment o reforçar de manera irregular. Això altera la resposta en freqüència del sistema i degrada la naturalitat del so, 
-
-15 
-
-motiu pel qual el disseny d'un crossover requereix un equilibri rigorós entre teòrica i proves pràctiques. 
+aquesta relació temporal introduint un desfasament (il·lustració 6). Si les ones arriben desfasades —és a dir, si el pic d'una ona coincideix amb la vall de l'altra—, es produeixen interferències: les freqüències es poden cancel·lar parcialment o reforçar de manera irregular. Això altera la resposta en freqüència del sistema i degrada la naturalitat del so, motiu pel qual el disseny d'un crossover requereix un equilibri rigorós entre teòrica i proves pràctiques. 
 
 També cal diferenciar entre crossovers passius i digitals. Els passius són els més comuns en altaveus comercials i es col·loquen després de l’amplificador, mentre que els digitals funcionen abans de l’amplificació i permeten un control molt més precís, tot i que fan el sistema més complex. 
 
 ### **_Capsa:_** 
+
+16 
 
 La capsa no només serveix per contenir els components, sinó que té un paper fonamental en el comportament acústic de l’altaveu. De fet, pot arribar a afectar tant el so com el propi driver. 
 
@@ -334,43 +343,41 @@ El tipus de capsa influeix molt en el resultat final. Les capses tancades oferei
 
 
 <!-- Start of picture text -->
-{ T<br>Acoustic Suspension Bass Reflex<br>(Sealed) Enclosure (Ported) Enclosure<br><!-- End of picture text -->
+{ Li<br>Acoustic Suspension Bass Reflex<br>(Sealed) Enclosure (Ported) Enclosure<br><!-- End of picture text -->
 
 **Il·lustració  7 - Tipus de capses** 
 
 integrada directament dins de la capsa o adoptar la forma d’un tub. La seva mida i longitud determinen la freqüència a la qual està sintonitzada la capsa, permetent aprofitar el moviment de l’aire del seu interior per reforçar les freqüències baixes. 
 
-Els materials també tenen un impacte directe. Materials com el MDF són molt utilitzats perquè tenen una bona densitat i absorbeixen vibracions. Si la capsa vibra massa, aquestes vibracions es converteixen en so no desitjat i degraden la qualitat final. Per això, 
-
-16 
-
-en molts dissenys s’afegeixen reforços interns i materials absorbents per reduir ressonàncies/vibracións. 
+Els materials també tenen un impacte directe. Materials com el MDF són molt utilitzats perquè tenen una bona densitat i absorbeixen vibracions. Si la capsa vibra massa, aquestes vibracions es converteixen en so no desitjat i degraden la qualitat final. Per això, en molts dissenys s’afegeixen reforços interns i materials absorbents per reduir ressonàncies/vibracións. 
 
 A més, la mida i la forma de la capsa també afecten la resposta en freqüència. Un volum més gran permet una millor reproducció de freqüències baixes, mentre que formes inadequades poden perjudicar la resposta de freqüències. 
 
-A part del tipus d’altaveu, la disposició física dels drivers també influeix en el comportament del sistema. No es tracta només de quins altaveus s’utilitzen, sinó de com es col·loquen ja que com hem explicat abans, una mala combinació d’aquest podria provocar problemes amb la fase. 
+A part del tipus d’altaveu, la disposició física dels drivers també influeix en el comportament del sistema. No es tracta només de quins altaveus s’utilitzen, sinó de com 
+
+17 
+
+es col·loquen ja que com hem explicat abans, una mala combinació d’aquest podria provocar problemes amb la fase. 
 
 La configuració més comuna és la de dues vies, formada per un woofer i un tweeter. El woofer s’encarrega de les freqüències baixes i mitjanes, mentre que el tweeter reprodueix les freqüències altes. Aquesta configuració és molt utilitzada perquè és relativament simple, econòmica i pot oferir molt bons resultats si està ben dissenyada. 
 
 En sistemes més avançats, es fa servir la configuració de tres vies, on s’afegeix un altaveu específic per a les freqüències mitjanes. Això permet repartir millor el treball entre els diferents drivers i millorar la fidelitat, especialment en la reproducció de veus i instruments. Tot i això, també augmenta la complexitat del crossover i del disseny general. 
 
-17 
+També és bastant habitual trobar configuracions amb més d’un woofer, com per exemple sistemes amb dos woofers i un tweeter (MTM). Això permet augmentar la capacitat de reproduir greus i millorar la pressió sonora (volum) sense necessitat d’utilitzar un altaveu molt gran. En altres casos, especialment en sistemes professionals o de grans dimensions, es poden utilitzar múltiples drivers alineats verticalment (line array). Aquesta disposició permet controlar millor la dispersió del so i mantenir una cobertura més uniforme en espais grans. » 
 
-També és bastant habitual trobar configuracions amb més d’un woofer, com per exemple sistemes amb dos woofers i un tweeter (MTM). Això permet augmentar la capacitat de reproduir greus i millorar la pressió sonora (volum) sense necessitat d’utilitzar un altaveu molt gran. En altres casos, especialment en sistemes professionals o de grans dimensions, es poden utilitzar múltiples drivers alineats verticalment (line array). Aquesta disposició permet controlar millor la dispersió del so i mantenir una cobertura més uniforme en espais grans. 
+Cal destacar el driver coaxial (il·lustració 8). En aquest cas, el tweeter es col·loca al centre del woofer, compartint el mateix eix. A diferència de les configuracions tradicionals, on cada driver està separat físicament, aquí el so de totes les freqüències prové pràcticament del mateix punt. Això té avantatges importants en termes de coherència i fase, ja que es redueixen els problemes derivats de la separació entre altaveus. Aquesta característica pot millorar la imatge estèreo i la precisió espacial del so, fent que la localització dels instruments sigui més 
 
-Cal destacar el driver coaxial (il·lustració 8). En aquest 
+**Il·lustració  8 – Driver coaxial** 
 
-cas, el tweeter es col·loca al centre del woofer, compartint el mateix eix. A diferència de les configuracions tradicionals, on cada driver està separat físicament, aquí el so de totes les freqüències prové pràcticament del mateix punt. Això té avantatges importants en termes de coherència i fase, ja que es redueixen els problemes derivats de la separació entre altaveus. Aquesta característica pot millorar la imatge estèreo i la precisió espacial del so, fent que la localització dels instruments sigui més clara. No obstant això, també presenta dificultats. El disseny és més complex, ja que el **Il·lustració  8 – Driver coaxial** tweeter s’ha d’integrar dins del woofer sense interferir 
+18 
 
-en el seu funcionament. A més, poden aparèixer limitacions en la dispersió de les freqüències altes. 
+clara. No obstant això, també presenta dificultats. El disseny és més complex, ja que el tweeter s’ha d’integrar dins del woofer sense interferir en el seu funcionament. A més, poden aparèixer limitacions en la dispersió de les freqüències altes. 
 
 Els altaveus coaxials són molt comuns en sistemes d’automòbil i també en alguns monitors d’estudi, on es busca una bona coherència del so en espais reduïts. 
 
 En general, la configuració dels drivers afecta com es distribueix el so en l’espai, com interactuen les diferents freqüències i com percep l’oient el conjunt. Per això, és un aspecte clau en el disseny d’altaveus d’alta fidelitat. 
 
 ### **_Directivitat i dispersió:_** 
-
-18 
 
 La directivitat descriu com es distribueix el so que emet un altaveu en les diferents direccions. Aquesta distribució varia principalment segons la freqüència i la mida del driver. 
 
@@ -382,6 +389,8 @@ La directivitat pot variar segons la direcció relativa a l'altaveu. La directiv
 
 Aquest comportament es pot estudiar mitjançant mesures fora de l'eix, conegudes com a mesures off-axis. En aquestes mesures es registra la resposta de l'altaveu des de diferents angles i es compara amb la resposta frontal, habitualment a 0°. 
 
+19 
+
 Aquestes mesures permeten observar si la resposta de l'altaveu es manté uniforme quan l'oient es desplaça respecte de l'eix principal. 
 
 #### **_Disposició dels drivers_** 
@@ -390,51 +399,33 @@ La disposició física dels drivers també pot influir en la directivitat del co
 
 Per aquest motiu, en el disseny d'un altaveu és important tenir en compte la disposició dels diferents drivers i no només les seves característiques individuals. En aquest projecte, aquest aspecte s'ha considerat en la disposició vertical i asimètrica del tweeter, el midwoofer i el woofer, buscant obtenir una resposta més uniforme fora de l'eix. 
 
-19 
-
 ### **_Amplificador:_** 
 
-Un altaveu necessita una font d’energia per fer moure la seva membrana, ja que el senyal original acostuma a ser massa feble per produir un moviment apreciable. 
-
-Aquí és on entra en joc l’amplificador. Aquest dispositiu s’encarrega d’augmentar la potència del senyal elèctric sense modificar (idealment) la seva forma. És a dir, amplia l’amplitud del senyal mantenint la informació original. 
-
-L’amplificador pren un senyal d’entrada de baixa potència i el transforma en un senyal capaç de moure la bobina (en altaveus dinàmics) o el sistema corresponent. 
-
-És important que l’amplificador sigui de qualitat, ja que una amplificació deficient pot introduir distorsions o soroll, degradant així la qualitat del so. 
-
-Els amplificadors es poden classificar segons com processen el senyal elèctric. Les classes més rellevants són la A, la AB i la D. 
+Un amplificador d'àudio és un dispositiu electrònic que augmenta la potència d'un senyal elèctric d'àudio per tal de poder alimentar un altaveu. Rep un senyal d'entrada de baixa potència i, mitjançant l'energia proporcionada per la seva font d'alimentació, genera a la sortida un senyal capaç de proporcionar la tensió i el corrent necessaris per moure el driver. L'objectiu és mantenir la forma del senyal original amb la mínima distorsió possible. 
 
 ### **_I. Classe A_** 
 
-Els amplificadors de classe A són els que ofereixen, teòricament, una millor qualitat sonora. Utilitza el transistor, un component elèctric equivalent a una “vàlvula” d’aigua. Te dos entrades i una sortida. Una es la entrada de corrent, l’altre es la base, la qual actua com a la “maneta” de la vàlvula, regula la sortida del corrent elèctric, i per últim tenim la sortida. 
-
-El seu transistor de sortida està sempre actiu, independentment del senyal d’entrada, cosa que elimina un tipus de distorsió anomenada distorsió de commutació. Això es degut a que el transistor no actua amb la mínima corrent aplicada, requereix un mínim per a ser activat i començar a amplificar. Com la majoria de senyals son massa minúscules per a encendre el transistor, s’aplica un corrent _“d’engegament”._ 
+Per entendre el funcionament d’un amplificador, primer cal entendre el paper del transistor. Aquest component permet controlar el corrent que circula per un circuit a partir d’un senyal elèctric més petit. Es pot imaginar de manera simplificada com un interruptor controlable: en lloc de limitar-se a estar obert o tancat, el transistor pot regular de manera gradual el corrent que el travessa. D’aquesta manera, un senyal d’àudio de poca potència pot controlar un corrent més gran proporcionat per la font d’alimentació i generar a la sortida un senyal amb més potència. 
 
 20 
 
-El problema d’aquest sistema és que els fa molt ineficients: gran part de l’energia elèctrica es dissipa en forma de calor, en comptes d’anar cap a l’altaveu. Per això, els amplificadors de classe A tendeixen a ser grans, pesats i cars. Tot i així, són molt apreciats pels “ _audiòfils_ ” pels quals la qualitat del so és la prioritat absoluta. 
+En un amplificador de classe A, el transistor està preparat per conduir durant tot el cicle del senyal d’àudio, tant en la part positiva com en la negativa. Això permet amplificar el senyal complet sense haver de repartir-lo entre diferents transistors. 
+
+Aquest funcionament fa que els amplificadors de classe A puguin aconseguir una baixa distorsió, ja que el transistor no ha de passar contínuament entre un estat de conducció i un estat de no conducció durant la reproducció del senyal. El principal inconvenient és l’eficiència: el transistor continua conduint fins i tot quan no hi ha senyal d’àudio, de manera que una part important de l’energia elèctrica es dissipa en forma de calor. Per aquest motiu, els amplificadors de classe A necessiten una dissipació tèrmica considerable i són poc eficients comparats amb altres classes d’amplificació. 
 
 ### **_II. Classe AB_** 
 
-Els amplificadors de classe AB són els més utilitzats en els equips convencionals d’àudio. Representen un bon compromís entre qualitat sonora i eficiència energètica. 
+En un amplificador de classe AB, el funcionament és similar al de la classe A, però el senyal es reparteix entre dos transistors. Un transistor s'encarrega principalment de la part positiva del senyal i l'altre de la part negativa. Per evitar que hi hagi un buit entre les dues parts, els dos transistors condueixen durant una petita part del cicle al mateix temps. D'aquesta manera, es redueix la distorsió que es produiria si cada transistor només funcionés durant exactament la meitat del cicle. 
 
-Funcionen amb dos transistors (o conjunts de transistors), un que s’encarrega de la meitat positiva del senyal i l’altre de la meitat negativa. D’aquesta manera, cada transistor només treballa quan li correspon i no ha de romandre actiu tot el temps, com passa en els amplificadors de classe A. 
-
-Si observem l’ona del senyal, veiem que aquesta passa contínuament de la part positiva a la negativa. En dividir el senyal entre dos transistors, evitem que cap dels dos hagi de treballar en la zona on el senyal canvia de polaritat. Tot i això, en el punt exacte de transició (anomenat “crossover”) pot aparèixer una petita distorsió, ja que cap dels dos transistors està completament actiu en aquell instant. En els dissenys moderns aquesta distorsió queda molt ben minimitzada gràcies a una petita polarització (la mateixa del amplificador de classe A, però amb molta menys intensitat) que manté els transistors lleugerament actius a la zona de transició. 
-
-Gràcies a aquest funcionament, els amplificadors de classe AB ofereixen una eficiència superior a la dels amplificadors de classe A, tot mantenint una qualitat sonora molt bona. Per aquest motiu són la solució més estesa en la majoria d’amplificadors domèstics i d’alta fidelitat. 
-
-### **_III. Classe D_** 
+Aquest funcionament permet obtenir una eficiència superior a la de la classe A, ja que els transistors no han de conduir durant tot el cicle quan no és necessari. Al mateix temps, manté una distorsió relativament baixa, tot i que el circuit és una mica més complex que el d'un amplificador de classe A. Per aquest motiu, la classe AB s'ha utilitzat àmpliament en amplificadors d'àudio, ja que ofereix un compromís entre el baix nivell de distorsió de la classe A i un consum d'energia més reduït. 
 
 21 
 
-Finalment, els amplificadors de classe D, també coneguts com a amplificadors digitals o de commutació, s’han popularitzat molt en els últims anys. 
+### **_III. Classe D_** 
 
-A diferència dels amplificadors de classe A i AB, aquí els transistors no amplifiquen el senyal de forma contínua. En lloc d’això, commuten molt ràpidament entre estar completament encesos i completament apagats durant diferents periodes de temps. Això genera un senyal de polsos (anomenat PWM). Després, un filtre simple elimina els polsos alts i el resultat és el senyal amplificat que arriba a l’altaveu. 
+A diferència dels amplificadors de classe A i AB, en un amplificador de classe D els transistors no s'utilitzen principalment per regular de manera contínua el corrent, sinó que funcionen com interruptors que commuten ràpidament entre un estat de conducció i un estat de no conducció. El senyal d'àudio controla aquesta commutació a una freqüència molt elevada, de manera que el corrent mitjà obtingut a la sortida segueix les variacions del senyal original. 
 
-El gran avantatge d’aquesta tecnologia és la seva eficiència, que pot superar el 90 %. Això vol dir que es perd molt poca energia en forma de calor. Per això són ideals per a altaveus portàtils, subwoofers actius i qualsevol equip on es vulgui estalviar energia o no generar molta calor. 
-
-La qualitat sonora ha millorat molt en els darrers anys. Avui dia, molts amplificadors de classe D de gamma alta ofereixen un so molt bo i són competitius amb els millors amplificadors analògics tradicionals. 
+Abans d'arribar a l'altaveu, aquest senyal passa per un filtre que elimina els components d'alta freqüència produïts per la commutació i recupera el senyal d'àudio amplificat. Aquest funcionament permet reduir considerablement la quantitat d'energia que es dissipa en forma de calor i aconseguir una eficiència elevada. Per aquest motiu, els amplificadors de classe D són especialment adequats per a sistemes d'àudio on es necessita una potència elevada amb un consum i una dissipació de calor reduïts. 
 
 ### **_L’estèreo, la imatge sonora i l’acústica de la sala:_** 
 
@@ -586,30 +577,34 @@ Els punts de tall entre vies (entre cada driver) s'han establert a 600 Hz (entre
 
 
 
-La capsa té un volum intern de 12,8 L, lleugerament per sota de l'objectiu inicial de 14 L (veure “Construcció dels altaveus”). Les dimensions externes són d'aproximadament 40x20x21 cm, amb un “baffle” (part frontal del altaveu) de MDF de 2 cm de gruix (ajuntant dos panels de 1cm, il·lustració 13) i la resta de panells en contraxapat d'1 cm. 
+La capsa té un volum intern de 12,8 L, lleugerament per sota de l'objectiu inicial de 14 L (veure “Construcció dels altaveus”). Les dimensions externes són d'aproximadament 40x20x21 cm, amb un “baffle” (part frontal del altaveu) de MDF de 2 cm de gruix (ajuntant dos panels de 1cm, il·lustració 13) i la resta de panells en contraxapat d'1 cm. El mid-woofer i el tweeter estan allotjats en un subcompartiment aïllat amb forma de "L" (il·lustració 14). Aquesta forma permet aïllar els dos drivers sense afectar el “bass port” ni sacrificar un volum excessiu de la capsa, ja que cap d'aquests dos drivers necessita tant d'espai com el woofer. 
 
-**Il·lustració 13 – “Baffle” de dos planxes d’MDF** 
+**Il·lustració 13 – “Baffle” de** 
 
-El mid-woofer i el tweeter estan allotjats en un subcompartiment aïllat amb forma de "L" (il·lustració 14). Aquesta forma permet aïllar els dos drivers sense afectar el “bass port” ni sacrificar un volum excessiu de la capsa, ja que cap d'aquests dos drivers necessita tant d'espai com el woofer. 
+**dos planxes d’MDF** 
 
 
 
 <!-- Start of picture text -->
-\<br><!-- End of picture text -->
+\,<br><!-- End of picture text -->
 
-Degut al volum reduït de la capsa, el bass port té 5 cm de diàmetre i 18 cm de fondària, sintonitzat a uns 46 Hz, coincidint amb la freqüència de ressonància (Fs) del woofer M6N segons la seva datasheet. Aquesta coincidència no és casual: per sota de la seva Fs, el woofer perd control sobre el moviment de la membrana, i el port ajuda a reforçar precisament aquest rang de freqüències, compensant aquesta pèrdua. 
+Degut al volum reduït de la capsa, el port bass-reflex té 5 cm de diàmetre i 18 cm de fondària, i està sintonitzat a uns 46 Hz. Aquesta freqüència, coneguda com a freqüència de sintonia de la caixa (Fb), correspon a la ressonància del sistema format pel volum d'aire de la caixa i l'aire contingut en el port. Al voltant d'aquesta freqüència, el port contribueix de manera significativa a la reproducció de les freqüències baixes i redueix l'excursió del woofer. Per sota de Fb, aquesta 
 
-**Il·lustració 14 – Subcompartiment amb** 
+**Il·lustració 14 –** 
+
+**Subcompartiment amb** 
 
 **forma de “L”** 
 
+
+
 29 
+
+contribució disminueix ràpidament, la resposta acústica cau i l'excursió del woofer pot augmentar considerablement. 
 
 En una primera versió, el port es va dissenyar amb una fondària d'uns 15-16 cm, però això sintonitzava la capsa per sobre de la freqüència desitjada, ja que la caixa va acabar sent més petita del calculat. Es va deixar el port als 18 cm actuals per corregir-ho. 
 
-Per reduir vibracions i ressonàncies no desitjades, s'ha afegit un reforç estructural ("bracing", il·lustració 15) d'adalt a abaix i de dreta a esquerra, fet amb una barra de contraxapat d'uns 2 cm d'amplada i 1 cm de gruix. Aquest reforç és purament estructural, sense dividir l'interior de la capsa en compartiments separats. També, s'ha afegit farciment de polièster acústic per esmorteir l'interior de la capsa. 
-
-**Il·lustració 15  – “Bracing”** 
+Per reduir vibracions i ressonàncies no desitjades, s'ha afegit un reforç estructural ("bracing", il·lustració 15) d'adalt a abaix i de dreta a esquerra, fet amb una barra de contraxapat d'uns 2 cm d'amplada i 1 cm de gruix. Aquest reforç és purament estructural, **Il·lustració 15  – “Bracing”** sense dividir l'interior de la capsa en compartiments separats. També, s'ha afegit farciment de polièster acústic per esmorteir l'interior de la capsa. 
 
 ### **_Construcció dels altaveus:_** 
 
